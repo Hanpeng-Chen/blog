@@ -1,5 +1,5 @@
 ---
-title: 【python系列】基础（二）：列表和元组
+title: Python从小白到攻城狮（3）：列表和元组
 date: 2019-08-08 09:01:57
 tags:
   - python教程
