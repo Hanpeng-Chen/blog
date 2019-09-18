@@ -1,5 +1,5 @@
 ---
-title: Python从小白到攻城狮（1）：python环境搭建
+title: Python从小白到攻城狮(1)——python环境搭建
 date: 2019-08-06 20:31:03
 tags:
   - python教程

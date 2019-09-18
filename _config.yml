@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 程序员的修行之路
+title: 代码视界
 subtitle: Hampton Chen's Blog
 description:
-keywords: Java, JavaScript, Vue
+keywords: Java, Python, JavaScript, Vue, 大数据, 机器学习
 author: Hampton Chen
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://hamptonchen.github.io
+url: http://www.chenhanpeng.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: pure
+theme: snippet
 
 # comment support
 duoshuo:
@@ -85,6 +85,6 @@ duoshuo:
 deploy:
   type: git
   repo:
-    github: git@github.com:HamptonChen/hamptonchen.github.io.git
+    github: git@github.com:HamptonChen/blog-comments.git
   branch: master
 

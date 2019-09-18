@@ -1,5 +1,5 @@
 ---
-title: Python从小白到攻城狮（7）：函数
+title: Python从小白到攻城狮(7)——函数
 date: 2019-09-05 15:55:35
 tags:
   - python教程

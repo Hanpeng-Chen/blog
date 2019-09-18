@@ -1,5 +1,5 @@
 ---
-title: Python从小白到攻城狮（5）：深入浅出字符串
+title: Python从小白到攻城狮(5)——深入浅出字符串
 date: 2019-08-25 22:54:02
 tags:
   - python教程

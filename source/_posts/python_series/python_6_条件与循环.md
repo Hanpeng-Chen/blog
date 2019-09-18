@@ -1,5 +1,5 @@
 ---
-title: Python从小白到攻城狮（6）：条件与循环
+title: Python从小白到攻城狮(6)——条件与循环
 date: 2019-08-27 14:12:08
 tags:
   - python教程
