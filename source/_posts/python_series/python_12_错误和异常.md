@@ -1,5 +1,6 @@
 ---
 title: Python从小白到攻城狮(12)——错误和异常
+urlname: python-12-error-and-exception
 date: 2019-09-27 10:12:37
 tags:
   - python教程

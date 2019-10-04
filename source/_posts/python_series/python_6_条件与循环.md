@@ -1,5 +1,6 @@
 ---
 title: Python从小白到攻城狮(6)——条件与循环
+urlname: python-6-condition-and-loop
 date: 2019-08-27 14:12:08
 tags:
   - python教程

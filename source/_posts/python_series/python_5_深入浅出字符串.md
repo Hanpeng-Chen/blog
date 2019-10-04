@@ -1,5 +1,6 @@
 ---
 title: Python从小白到攻城狮(5)——深入浅出字符串
+urlname: python-5-string
 date: 2019-08-25 22:54:02
 tags:
   - python教程

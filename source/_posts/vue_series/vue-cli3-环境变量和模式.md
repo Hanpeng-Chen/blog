@@ -1,5 +1,6 @@
 ---
 title: Vue-CLI3 环境变量和模式
+urlname: Vue-Cli3-mode-and-env
 tags:
   - Vue-CLI3
   - 模式

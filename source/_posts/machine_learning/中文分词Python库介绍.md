@@ -1,5 +1,6 @@
 ---
 title: 中文分词Python库介绍
+urlname: python-packages-for-Chinese-word-segmentation
 date: 2019-04-21 17:05:40
 tags:
   - 中文分词

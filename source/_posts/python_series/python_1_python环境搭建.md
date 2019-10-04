@@ -1,5 +1,6 @@
 ---
 title: Python从小白到攻城狮(1)——python环境搭建
+urlname: python-1-env
 date: 2019-08-06 20:31:03
 tags:
   - python教程

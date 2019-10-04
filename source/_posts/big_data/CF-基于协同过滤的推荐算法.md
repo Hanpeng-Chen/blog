@@ -1,5 +1,6 @@
 ---
 title: CF-基于协同过滤的推荐算法
+urlname: CF-Recommendation-algorithm
 date: 2019-05-13 23:05:11
 tags:
   - 推荐算法

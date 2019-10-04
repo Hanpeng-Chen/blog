@@ -1,5 +1,6 @@
 ---
 title: Python从小白到攻城狮(2)——数据类型和变量
+urlname: python-2-data-type-variable
 date: 2019-08-06 21:31:03
 tags:
   - python教程

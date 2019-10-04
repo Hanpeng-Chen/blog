@@ -1,5 +1,6 @@
 ---
 title: Python从小白到攻城狮(11)——输入与输出
+urlname: python-11-input-and-output
 date: 2019-09-23 22:49:27
 tags:
   - python教程

@@ -1,5 +1,6 @@
 ---
 title: Python从小白到攻城狮(8)——模块
+urlname: python-8-module
 date: 2019-09-05 23:00:13
 author: 陈汉鹏
 tags:

@@ -1,5 +1,6 @@
 ---
 title: CB-基于内容的推荐算法
+urlname: CB-Recommendation-algorithm
 date: 2019-05-07 23:57:25
 tags:
   - 推荐算法

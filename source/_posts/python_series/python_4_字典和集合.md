@@ -1,5 +1,6 @@
 ---
 title: Python从小白到攻城狮(4)——字典和集合
+urlname: python-4-dict-and-set
 date: 2019-08-21 20:09:49
 tags:
   - python教程

@@ -1,5 +1,6 @@
 ---
 title: Python从小白到攻城狮(9)——匿名函数
+urlname: python-9-lambda
 date: 2019-09-18 12:00:13
 tags:
   - python教程

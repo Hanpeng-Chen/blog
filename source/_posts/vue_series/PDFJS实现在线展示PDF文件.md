@@ -1,5 +1,6 @@
 ---
 title: PDF.js实现在线展示pdf文件
+urlname: PDF.js-use
 date: 2019-06-28 00:03:24
 tags:
   - pdf.js

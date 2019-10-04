@@ -1,5 +1,6 @@
 ---
 title: 利用TensorFlow Object Detection API实现图片和视频物体检测
+urlname: Tensorflow-Object-Detection-image-video
 tags:
   - TensorFlow
   - 物体检测

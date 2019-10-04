@@ -1,5 +1,6 @@
 ---
 title: Python从小白到攻城狮(3)——列表和元组
+urlname: python-3-list-and-tuple
 date: 2019-08-08 09:01:57
 tags:
   - python教程

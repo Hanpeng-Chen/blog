@@ -1,5 +1,6 @@
 ---
 title: 微信小程序使用otp算法踩坑总结
+urlname: wechat-miniprogram-otp-use-summary
 date: 2019-07-09 22:13:05
 tags:
   - otp算法

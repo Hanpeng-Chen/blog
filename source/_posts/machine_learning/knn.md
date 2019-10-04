@@ -1,5 +1,6 @@
 ---
 title: K-近邻(KNN)算法
+urlname: knn
 date: 2019-03-21 17:04:17
 tags:
   - KNN

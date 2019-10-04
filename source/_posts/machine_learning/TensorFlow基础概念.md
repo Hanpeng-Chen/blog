@@ -1,5 +1,6 @@
 ---
 title: TensorFlow基础概念
+urlname: Basic-concepts-of-TensorFlow
 tags:
   - TensorFlow
 categories:

@@ -1,5 +1,6 @@
 ---
 title: Python从小白到攻城狮(10)——高阶函数
+urlname: python-10-higher-order-function
 date: 2019-09-22 21:28:53
 tags:
   - python教程
