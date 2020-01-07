@@ -1,6 +1,6 @@
 ---
 title: Python从小白到攻城狮(17)——os 文件目录方法
-urlname: python-16-os
+urlname: python-17-os
 date: 2019-11-13 16:32:15
 tags:
   - Python教程

@@ -41,7 +41,8 @@ KNN算法工作原理可描述为：
  
 ### KNN算法距离计算方式
 在KNN中，通过计算对象间距离来作为各个对象之间的相似性指标，这里的距离计算一般采用欧式距离或者是曼哈顿距离，两种距离的计算公式如下图所示：
-![Alt](/images/articles/2019/20190321knn-1.png#pic_center)
+<!-- ![Alt](/images/articles/2019/20190321knn-1.png#pic_center) -->
+{% qnimg machine_learning/20190321knn-1.png %}
 
 ### KNN算法特点：
 

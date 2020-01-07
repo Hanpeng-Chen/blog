@@ -56,7 +56,8 @@ open(filename, mode)
 > filename：包含你要访问的文件名称的字符串值。
 > mode：决定了打开文件的模式：只读，写入，追加等。这个参数非强制的，默认文件访问模式为只读(r)。所有可取值见下表：
 
-![](/images/articles/2019/python_series/11-1.png)
+<!-- ![](/images/articles/2019/python_series/11-1.png) -->
+{% qnimg python_series/11-1.png %}
 
 以下示例将字符串写入到文件demo.txt中：
 ```python

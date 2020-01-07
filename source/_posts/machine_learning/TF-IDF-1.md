@@ -16,20 +16,18 @@ TF-IDF（Term Frequency-Inverse Document Frequency）即“词频-反文档频�
 在计算词频时，需要注意停用词的过滤。什么是停用词：在文章中出现次数最多的“的”、“是”、“在”等最常用词，但对结果毫无帮助，必须过滤的词。
 
 TF计算有两种方式，具体公式如下：
-<div align="center">
-![Alt](/images/articles/2019/20190325TF-IDF-1.png#pic_center)
-![Alt](/images/articles/2019/20190325TF-IDF-2.png#pic_center)
-</div>
+<!-- ![Alt](/images/articles/2019/20190325TF-IDF-1.png#pic_center) -->
+<!-- ![Alt](/images/articles/2019/20190325TF-IDF-2.png#pic_center) -->
+{% qnimg machine_learning/20190325TF-IDF-1.png %}
+{% qnimg machine_learning/20190325TF-IDF-2.png %}
 
 **IDF——反文档频率：**一个词在所有文章中出现的频率。如果包含这个词的文章越少，IDF越大，则说明词具有很好的类别区分能力。计算公式如下：
-<div align="center">
-![Alt](/images/articles/2019/20190325TF-IDF-3.png#pic_center)
-</div>
+<!-- ![Alt](/images/articles/2019/20190325TF-IDF-3.png#pic_center) -->
+{% qnimg machine_learning/20190325TF-IDF-3.png %}
 
 将TF和IDF相乘，就得到一个词的TF-IDF值，某个词对文章的重要性越高，该值越大，于是排在前面的几个词，就是这篇文章的关键词。
-<div align="center">
-![Alt](/images/articles/2019/20190325TF-IDF-4.png#pic_center)
-</div>
+<!-- ![Alt](/images/articles/2019/20190325TF-IDF-4.png#pic_center) -->
+{% qnimg machine_learning/20190325TF-IDF-4.png %}
 
 ## TF-IDF总结：
 
@@ -41,9 +39,8 @@ TF计算有两种方式，具体公式如下：
 
 ## 用python实现TF-IDF的计算
 将下图所示的已经分好词的文章作为语料库，计算101it.seg.cln.txt中的TF-IDF。
-<div align="center">
-![Alt](/images/articles/2019/20190325TF-IDF-5.png#pic_center)
-</div>
+<!-- ![Alt](/images/articles/2019/20190325TF-IDF-5.png#pic_center) -->
+{% qnimg machine_learning/20190325TF-IDF-5.png %}
 
 具体python代码实现如下：
 

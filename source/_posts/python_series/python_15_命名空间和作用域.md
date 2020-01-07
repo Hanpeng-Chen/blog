@@ -22,7 +22,8 @@ date: 2019-11-01 08:43:24
 - **全局名称(global names)：**模块定义的名称，记录了模块的变量，包括函数、类、其他导入的模块、模块级的变量和常量。
 - **局部名称(local names)：**函数中定义的名称，记录了函数的变量，包括函数的参数和局部定义的变量。（类中定义的也是）
 
-![](/images/articles/2019/python_series/namespace_and_scope_1.png)
+<!-- ![](/images/articles/2019/python_series/namespace_and_scope_1.png) -->
+{% qnimg python_series/namespace_and_scope_1.png %}
 
 ## 命名空间的查找顺序
 > 假设我们要使用变量count，那么查找顺序为：局部的命名空间 -> 全局的命名空间 -> 内置的命名空间
@@ -62,7 +63,8 @@ Python 中，程序的变量并不是在哪个位置都可以访问的，访问�
 
 在局部找不到，便会去局部外的局部找（例如闭包），再找不到就会去全局找，再者去内置中找。
 
-![](/images/articles/2019/python_series/namespace_and_scope_2.png)
+<!-- ![](/images/articles/2019/python_series/namespace_and_scope_2.png) -->
+{% qnimg python_series/namespace_and_scope_2.png %}
 
 内置作用域是通过一个名为 builtin 的标准模块来实现的，但是这个变量名自身并没有放入内置作用域内，所以必须导入这个文件才能够使用它。在Python3.0中，可以使用以下的代码来查看到底预定义了哪些变量:
 ```python

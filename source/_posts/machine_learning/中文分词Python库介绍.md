@@ -141,7 +141,8 @@ print(text)
 
 pkuseg在开源时对其进行测评，pkuseg的作者们选择 THULAC、结巴分词等国内代表分词工具包与 pkuseg 做性能比较。他们选择 Linux 作为测试环境，在新闻数据（MSRA）和混合型文本（CTB8）数据上对不同工具包进行了准确率测试。此外，测试使用的是第二届国际汉语分词评测比赛提供的分词评价脚本。评测结果如下：
 
-![Alt](/images/articles/2019/zhongwenfenci_python_1.png#pic_center)
+<!-- ![Alt](/images/articles/2019/zhongwenfenci_python_1.png#pic_center) -->
+{% qnimg machine_learning/zhongwenfenci_python_1.png %}
 
 
 我们可以看到，最广泛使用的结巴分词准确率最低，清华的THULAC分词准确率也低于PKUSeg。当然，pkuseg 是在这些数据集上训练的，因此它在这些任务上的准确率也会更高一些，也由此在其开源后对于其高准确率曾引起一些质疑和争议，有兴趣的朋友可以自行百度或点击下面链接查看：

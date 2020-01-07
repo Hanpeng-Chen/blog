@@ -78,9 +78,8 @@ npm install pdfjs-dist
 ```
 
 ## 3、效果
-<div style="display: flex; justify-content: center;">
-![Alt](/images/articles/2019/vue-pdfjs-demo.png)
-</div>
+<!-- ![Alt](/images/articles/2019/vue-pdfjs-demo.png) -->
+{% qnimg vue/vue-pdfjs-demo.png %}
 
 
 ## 4、注意点

@@ -21,9 +21,8 @@ https://github.com/tensorflow/models/tree/master/research/object_detection
 
 这个API提供了多种不同的，使用者可以通过设置不同检测边界范围来平衡运行速度和准确率。
 
-<div style="display: flex; justify-content: center;">
-![Alt](/images/articles/2019/TensorFlow/tensorflow-object-detection-1.png)
-</div>
+<!-- ![Alt](/images/articles/2019/TensorFlow/tensorflow-object-detection-1.png) -->
+{% qnimg TensorFlow/tensorflow-object-detection-1.png %}
 
 图中的mAP（平均精度）是检测边界框的准确率和召回率的乘积。这是一个很好的混合测度，在评价模型对目标物体的敏锐度和它是否能很好避免虚假目标中非常好用。mAP值越高，模型的准确度越高，但运行速度会相应下降。
 
@@ -116,9 +115,8 @@ with detection_graph.as_default():
 ```
 ### 检测结果如下：
 
-<div style="display: flex; justify-content: center;">
-![Alt](/images/articles/2019/TensorFlow/output_image1.png)
-</div>
+<!-- ![Alt](/images/articles/2019/TensorFlow/output_image1.png) -->
+{% qnimg TensorFlow/output_image1.png %}
 
 
 
@@ -181,9 +179,8 @@ cv2.destroyAllWindows()
 
 ### 检测效果
 
-<div style="display: flex; justify-content: center;">
-![Alt](/images/articles/2019/TensorFlow/video_output_image.png)
-</div>
+<!-- ![Alt](/images/articles/2019/TensorFlow/video_output_image.png) -->
+{% qnimg TensorFlow/video_output_image.png %}
 
 
 至此我们利用tensorflow提供的物体检测API，实现了图片和视频的物体检测。

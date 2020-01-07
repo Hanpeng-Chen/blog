@@ -29,9 +29,9 @@ categories:
 
 * 然后我们去计算歌曲A和歌曲B两者的相关性，如何相关性高，则将歌曲B推荐给用户。
 
-<div style="display: flex; justify-content: center;">
-![Alt](/images/articles/2019/CB-item.png)
-</div>
+<!-- ![Alt](/images/articles/2019/CB-item.png) -->
+
+{% qnimg machine_learning/CB-item.png %}
 
 这类推荐算法有以下优缺点：
 
@@ -49,9 +49,8 @@ categories:
 
 引入User属性的基于内容推荐算法加入了用户行为分析和建立用户兴趣模型。假设用户在过去的一段时间里听了爵士乐、DJ、周杰伦的歌，我们可以根据这几个历史标签进行数据建模，建立历史标签的正排倒排的内容分析。与上面不同的是这方面是基于用户的历史行为作分析，我们将其存到数据库，以后为用户推荐音乐时，先查库，然后进行相关的推荐。
 
-<div style="display: flex; justify-content: center;">
-![Alt](/images/articles/2019/CB-user.png)
-</div>
+<!-- ![Alt](/images/articles/2019/CB-user.png) -->
+{% qnimg machine_learning/CB-user.png %}
 
 这类推荐算法有以下优缺点：
 

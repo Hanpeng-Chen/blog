@@ -40,7 +40,8 @@ https://www.anaconda.com/distribution/
 
 在页面我们可以看到windows、macOS、linux对应的安装包。
 
-![](/images/articles/2019/python_series/install_python_1.png)
+<!-- ![](/images/articles/2019/python_series/install_python_1.png) -->
+{% qnimg python_series/install_python_1.png %}
 
 如果是初学者，建议下载Python3.X版本，而不是Python2.X。因为python的2和3版本的语法是有差异的，Python2.X将在2020年4月后不再进行任何维护。
 
@@ -48,7 +49,8 @@ https://www.anaconda.com/distribution/
 
 划重点：安装过程中最好将下图所示的`添加到环境变量`的选项勾上。
 
-![](/images/articles/2019/python_series/install_python_2.png)
+<!-- ![](/images/articles/2019/python_series/install_python_2.png) -->
+{% qnimg python_series/install_python_2.png %}
 
 安装之后可能程序没有自动配置anaconda环境变量，你需要手动配置！！！
 
@@ -64,7 +66,8 @@ https://www.anaconda.com/distribution/
 
 输入python，看到下面的画面，说明安装成功。
 
-![](/images/articles/2019/python_series/install_python_3.png)
+<!-- ![](/images/articles/2019/python_series/install_python_3.png) -->
+{% qnimg python_series/install_python_3.png %}
 
 看到提示符>>>就表示我们已经在Python交互式环境中了，可以输入任何Python代码，回车后会立即得到执行结果。输入`exit()`并回车，就退出Python交互模式。
 
@@ -79,7 +82,8 @@ https://www.anaconda.com/distribution/
 print('Hello world!')
 ```
 
-![](/images/articles/2019/python_series/install_python_4.png)
+<!-- ![](/images/articles/2019/python_series/install_python_4.png) -->
+{% qnimg python_series/install_python_4.png %}
 
 ## 命令行模式
 
@@ -104,7 +108,8 @@ E:\workspace\python-learning>cd 1-环境搭建
 
 在命令行中执行`python hello.py`，可以得到下面的执行结果：
 
-![](/images/articles/2019/python_series/install_python_5.png)
+<!-- ![](/images/articles/2019/python_series/install_python_5.png) -->
+{% qnimg python_series/install_python_5.png %}
 
 
 以上内容主要介绍了windows上的环境搭建。关于macOS的环境搭建，可以百度一下安装教程，作为一个没用过mac的人就不在这里就瞎掰了。

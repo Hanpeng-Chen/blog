@@ -5,7 +5,7 @@
 # Site
 title: 代码视界
 subtitle: Hampton Chen's Blog
-description:
+description: 个人技术博客，分享前端、Python、机器学习和大数据等方面的技术文章。
 keywords: Java, Python, JavaScript, Vue, 大数据, 机器学习
 author: Hampton Chen
 language: zh-CN
@@ -41,7 +41,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: true
+  auto_detect: false
   tab_replace:
   
 # Home page setting
@@ -88,3 +88,23 @@ deploy:
     github: 
   branch: master
 
+# 七牛云图床 
+qiniu:
+    offline: false
+    sync: true
+    bucket: 
+    # secret_file: sec/qn.json or C:
+    access_key: 
+    secret_key: 
+    dirPrefix: static
+    urlPrefix: 
+    up_host: http://upload-z2.qiniup.com
+    local_dir: static
+    update_exist: true
+    image: 
+      folder: images
+      extend: 
+    js:
+      folder: js
+    css:
+      folder: css

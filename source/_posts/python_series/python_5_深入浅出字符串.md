@@ -53,7 +53,8 @@ Python也支持转义字符。
 
 转义字符：用反斜杠开头的字符串，来表示一些特定意义的字符。常见的转义字符见下表：
 
-![](/images/articles/2019/python_series/5-1.png)
+<!-- ![](/images/articles/2019/python_series/5-1.png) -->
+{% qnimg python_series/5-1.png %}
 
 ```python
 >>> s = 'a\nb\tc\''

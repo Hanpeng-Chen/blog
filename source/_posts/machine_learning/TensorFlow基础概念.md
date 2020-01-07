@@ -27,14 +27,12 @@ TensorFlow 是Google第二代大规模分布式深度学习框架。
 TensorFlow数据流图是一种声明式编程范式
 
 声明式编程与命令式编程的多角度对比
-<div style="display: flex; justify-content: center;">
-![Alt](/images/articles/2019/TensorFlow/tensorflow-base-liutu-1.png)
-</div>
+<!-- ![Alt](/images/articles/2019/TensorFlow/tensorflow-base-liutu-1.png) -->
+{% qnimg TensorFlow/tensorflow-base-liutu-1.png %}
 
 数据流图由有向边和节点组成
-<div style="display: flex; justify-content: center;">
-![Alt](/images/articles/2019/TensorFlow/tensorflow-base-liutu-2.png)
-</div>
+<!-- ![Alt](/images/articles/2019/TensorFlow/tensorflow-base-liutu-2.png) -->
+{% qnimg TensorFlow/tensorflow-base-liutu-2.png %}
 
 数据流图的优势：**快**
 - 并行计算快
@@ -81,9 +79,8 @@ tf.Variable方法是操作，返回值是变量（特殊张量）
 - 变量则常驻内存，在每一步训练时不断更新值，以实现模型参数的更新。
 
 ### TensorFlow变量使用流程
-<div style="display: flex; justify-content: center;">
-![Alt](/images/articles/2019/TensorFlow/tensorflow-base-variable-1.png)
-</div>
+<!-- ![Alt](/images/articles/2019/TensorFlow/tensorflow-base-variable-1.png) -->
+{% qnimg TensorFlow/tensorflow-base-variable-1.png %}
 
 
 ## 操作(Operation)
@@ -100,9 +97,8 @@ TensorFlow用数据流图表示算法模型。数据流图由节点和有向边�
 
 ### TensorFlow典型计算和控制操作
 
-<div style="display: flex; justify-content: center;">
-![Alt](/images/articles/2019/TensorFlow/tensorflow-base-operation-1.png)
-</div>
+<!-- ![Alt](/images/articles/2019/TensorFlow/tensorflow-base-operation-1.png) -->
+{% qnimg TensorFlow/tensorflow-base-operation-1.png %}
 
 ### TensorFlow占位符操作
 
@@ -165,6 +161,5 @@ with tf.Session() as sess:
 3、**应用梯度**：调用apply_gradients方法，将处理后的梯度值应用到模型参数。
 
 TensorFlow内置优化器：
-<div style="display: flex; justify-content: center;">
-![Alt](/images/articles/2019/TensorFlow/tensorflow-base-optimizer.png)
-</div>
+<!-- ![Alt](/images/articles/2019/TensorFlow/tensorflow-base-optimizer.png) -->
+{% qnimg TensorFlow/tensorflow-base-optimizer.png %}

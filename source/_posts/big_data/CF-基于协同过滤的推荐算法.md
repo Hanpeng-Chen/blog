@@ -38,9 +38,9 @@ CF算法的数据源是基于用户历史行为和物品的矩阵数据，即UI�
 * 给定用户u，找到他过去喜欢的物品的集合R(u)
 * 把和R(u)相似的物品推荐给u
 
-<div style="display: flex; justify-content: center;">
-![Alt](/images/articles/2019/CF_1.png)
-</div>
+
+<!-- ![Alt](/images/articles/2019/CF_1.png) -->
+{% qnimg machine_learning/CF_1.png %}
 
 
 # CF算法优缺点
@@ -74,21 +74,18 @@ CF算法的关键在于计算获得user或item的相似度矩阵，即UU矩阵�
 
 **User-Based：**
 
-<div style="display: flex; justify-content: center;">
-![Alt](/images/articles/2019/CF_2.png)
-</div>
+<!-- ![Alt](/images/articles/2019/CF_2.png) -->
+{% qnimg machine_learning/CF_2.png %}
 
 用户之间的相似度计算，是基于对相同的物品打过分，可以将各个分值联合起来作为一个向量，然后计算余弦相似度：
 
-<div style="display: flex; justify-content: center;">
-![Alt](/images/articles/2019/CF_3.jpg)
-</div>
+<!-- ![Alt](/images/articles/2019/CF_3.jpg) -->
+{% qnimg machine_learning/CF_3.png %}
 
 **Item-Based：**
 
-<div style="display: flex; justify-content: center;">
-![Alt](/images/articles/2019/CF_5.png)
-</div>
+<!-- ![Alt](/images/articles/2019/CF_5.png) -->
+{% qnimg machine_learning/CF_5.png %}
 
 计算各个Item之间的相似度矩阵，即对两个Item都打过分的id的打分情况作为向量，同理得到item的相似度矩阵。
 
