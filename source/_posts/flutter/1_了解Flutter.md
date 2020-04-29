@@ -1,12 +1,13 @@
 ---
-title: Flutter | 了解Flutter
+title: Flutter | 1-了解Flutter
 urlname: start-learn-flutter
-date: 2019-12-23 23:08:34
 tags:
   - Flutter
 categories:
   - 前端
   - Flutter
+abbrlink: 1563
+date: 2019-12-23 23:08:34
 ---
 # 1、Flutter
 Flutter是Google推出并开源的移动应用开发框架，主打跨平台、高保真、高性能。开发者可以通过Dart语言开发APP，一套代码可以同时运行在ios、android、web。Flutter提供了丰富的组件、接口，开发者可以很快为Flutter添加native扩展。同时Flutter还使用Native引擎渲染视图，这为用户提供良好的体验。

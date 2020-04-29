@@ -1,12 +1,13 @@
 ---
 title: Python从小白到攻城狮(1)——python环境搭建
 urlname: python-1-env
-date: 2019-08-06 20:31:03
 tags:
   - python教程
   - python环境搭建
 categories:
   - Python
+abbrlink: 7191
+date: 2019-08-06 20:31:03
 ---
 
 # Python介绍
@@ -114,6 +115,6 @@ E:\workspace\python-learning>cd 1-环境搭建
 
 以上内容主要介绍了windows上的环境搭建。关于macOS的环境搭建，可以百度一下安装教程，作为一个没用过mac的人就不在这里就瞎掰了。
 
-**文中示例代码**： [python-learning](https://github.com/HamptonChen/python-learning)
+**文中示例代码**： [python-learning](https://github.com/Hanpeng-Chen/python-learning)
 
 未完待续，持续更新中......

@@ -1,12 +1,13 @@
 ---
 title: Python从小白到攻城狮(4)——字典和集合
 urlname: python-4-dict-and-set
-date: 2019-08-21 20:09:49
 tags:
   - python教程
   - 字典/集合
 categories:
   - Python
+abbrlink: 41480
+date: 2019-08-21 20:09:49
 ---
 
 
@@ -419,6 +420,6 @@ entries = [
 所以，字典和集合通常运用在对元素的高效查找、去重等场景。
 
 
-**文中示例代码**： [python-learning](https://github.com/HamptonChen/python-learning)
+**文中示例代码**： [python-learning](https://github.com/Hanpeng-Chen/python-learning)
 
 未完待续，持续更新中......

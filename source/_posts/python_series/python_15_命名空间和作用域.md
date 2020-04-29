@@ -7,6 +7,7 @@ tags:
 urlname: python-15-namespace-and-scope
 categories:
   - Python
+abbrlink: 52571
 date: 2019-11-01 08:43:24
 ---
 
@@ -192,6 +193,6 @@ test(a)
 
 
 
-**文中示例代码**： [python-learning](https://github.com/HamptonChen/python-learning)
+**文中示例代码**： [python-learning](https://github.com/Hanpeng-Chen/python-learning)
 
 未完待续，持续更新中......

@@ -1,11 +1,12 @@
 ---
 title: Python从小白到攻城狮(9)——匿名函数
 urlname: python-9-lambda
-date: 2019-09-18 12:00:13
 tags:
   - python教程
 categories:
   - Python
+abbrlink: 59679
+date: 2019-09-18 12:00:13
 ---
 在前面函数那节中，我们一起学习了Python的常规函数。但是在代码中，除了常规函数，我们也会见到一些“非常规”函数，它们往往很简短，就一行，并且有个很酷炫的名字——`lambda`，这就是匿名函数。
 
@@ -74,6 +75,6 @@ new_l = list(filter(lambda x: x % 2 == 1, range(1, 10)))
 # 总结
 这一节，我们一起学习了Python中的匿名函数lambda，它的主要用途是减少代码的复杂度。需要注意的是lambda是一个表达式，并不是一个语句；它只能写成一行的表达形式，语法上并不支持多行。匿名函数通常的使用场景是：程序中需要使用一个函数完成一个简单的功能，并且该函数只调用一次。
 
-**文中示例代码**： [python-learning](https://github.com/HamptonChen/python-learning)
+**文中示例代码**： [python-learning](https://github.com/Hanpeng-Chen/python-learning)
 
 未完待续，持续更新中......

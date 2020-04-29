@@ -1,6 +1,5 @@
 ---
 title: Python从小白到攻城狮(19)——网络编程入门
-date: 2020-01-16 16:34:28
 urlname: python-network-programming-tcp-and-udp
 tags:
   - python教程
@@ -8,6 +7,8 @@ tags:
   - TCP/UDP
 categories:
   - Python
+abbrlink: 30354
+date: 2020-01-16 16:34:28
 ---
 
 # 网络编程入门
@@ -274,6 +275,6 @@ s.close()
 从服务器接收数据仍然调用recv()方法。
 
 
-**完整的示例代码：** [python-learning](https://github.com/HamptonChen/python-learning/tree/master/19-%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B)
+**完整的示例代码：** [python-learning](https://github.com/Hanpeng-Chen/python-learning/tree/master/19-%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B)
 
 未完待续，持续更新中......

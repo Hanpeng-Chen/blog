@@ -1,13 +1,14 @@
 ---
 title: Python从小白到攻城狮(8)——模块
 urlname: python-8-module
-date: 2019-09-05 23:00:13
 author: 陈汉鹏
 tags:
   - python教程
   - 模块
 categories:
   - Python
+abbrlink: 17951
+date: 2019-09-05 23:00:13
 ---
 随着程序代码越写越多，一个文件中的代码越来越长，也越来越难以维护。为了编写可维护的代码，我们把很多函数分组，放到不同的文件中，这样每个文件包含的代码相对较少。
 
@@ -101,7 +102,7 @@ print(square(10))
 ```
 
 
-**文中示例代码**： [python-learning](https://github.com/HamptonChen/python-learning)
+**文中示例代码**： [python-learning](https://github.com/Hanpeng-Chen/python-learning)
 
 未完待续，持续更新中......
 

@@ -1,13 +1,14 @@
 ---
 title: Python从小白到攻城狮(3)——列表和元组
 urlname: python-3-list-and-tuple
-date: 2019-08-08 09:01:57
 tags:
   - python教程
   - 列表
   - 元组
 categories:
   - Python
+abbrlink: 53263
+date: 2019-08-08 09:01:57
 ---
 
 Python内置了多种类型的数据结构，常用的有：列表、元组、集合和字典。

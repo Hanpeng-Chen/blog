@@ -1,12 +1,13 @@
 ---
 title: CB-基于内容的推荐算法
 urlname: CB-Recommendation-algorithm
-date: 2019-05-07 23:57:25
 tags:
   - 推荐算法
   - 大数据
 categories:
   - 大数据
+abbrlink: 31720
+date: 2019-05-07 23:57:25
 ---
 
 在推荐系统领域，一般主要有两种推荐任务：评分预测和Top-N推荐。下面我们简单介绍一下这两种推荐任务：

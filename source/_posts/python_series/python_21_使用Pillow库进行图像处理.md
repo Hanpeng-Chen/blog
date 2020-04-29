@@ -1,6 +1,5 @@
 ---
 title: Python从小白到攻城狮(21)——使用Pillow库进行图像处理
-date: 2020-01-20 00:00:00
 urlname: python-pillow-deal-images
 tags:
   - python教程
@@ -8,6 +7,8 @@ tags:
   - 图像处理
 categories:
   - Python
+abbrlink: 4398
+date: 2020-01-20 00:00:00
 ---
 
 用程序来处理图像和办公文档经常出现在实际开发中，Python的标准库中虽然没有直接支持这些操作的模块，但我们可以通过Python的第三方模块来完成这些操作。
@@ -158,6 +159,6 @@ for x in range(80, 310):
 image.show()
 ```
 
-**完整的示例代码：** [python-learning](https://github.com/HamptonChen/python-learning/tree/master/21-%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86)
+**完整的示例代码：** [python-learning](https://github.com/Hanpeng-Chen/python-learning/tree/master/21-%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86)
 
 未完待续，持续更新中......

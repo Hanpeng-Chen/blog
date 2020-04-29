@@ -1,12 +1,13 @@
 ---
 title: Python从小白到攻城狮(6)——条件与循环
 urlname: python-6-condition-and-loop
-date: 2019-08-27 14:12:08
 tags:
   - python教程
   - 条件与循环
 categories:
   - Python
+abbrlink: 54524
+date: 2019-08-27 14:12:08
 ---
 
 在前面几篇文章中，我们学习了列表、元组、字典、集合和字符串等一系列Python的基本数据类型和数据结构。但仅靠这些数据结构类型是无法支持整个程序运行的，在编程中，流程控制是程序运行的基础，它决定了程序按照什么方式去执行。
@@ -250,6 +251,6 @@ values = [['jason', '2000-01-01', 'male'],
 - 写条件与循环时，合理利用continue或者break来避免复杂的嵌套，是十分重要的。
 - 要注意条件与循环的复用，简单功能往往可以用一行直接完成，极大地提高代码质量与效率。
 
-**文中示例代码**： [python-learning](https://github.com/HamptonChen/python-learning)
+**文中示例代码**： [python-learning](https://github.com/Hanpeng-Chen/python-learning)
 
 未完待续，持续更新中......

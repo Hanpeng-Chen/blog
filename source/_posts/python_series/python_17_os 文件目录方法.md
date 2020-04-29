@@ -1,12 +1,13 @@
 ---
 title: Python从小白到攻城狮(17)——os 文件目录方法
 urlname: python-17-os
-date: 2019-11-13 16:32:15
 tags:
   - Python教程
   - os 文件目录方法
 categories:
   - Python
+abbrlink: 49953
+date: 2019-11-13 16:32:15
 ---
 # os模块常用方法
 Python内置的os模块提供了非常丰富的方法用来处理文件和目录。常用的方法如下：
@@ -115,6 +116,6 @@ print(os.path.splitext('E:/workspace/python-learning/demo.py')) # ('E:/workspace
 > 这些合并、拆分路径的函数并不要求目录和文件要真实存在，它们只对字符串进行操作。
 
 
-**文中示例代码**： [python-learning](https://github.com/HamptonChen/python-learning)
+**文中示例代码**： [python-learning](https://github.com/Hanpeng-Chen/python-learning)
 
 未完待续，持续更新中......

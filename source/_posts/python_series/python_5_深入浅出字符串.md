@@ -1,12 +1,13 @@
 ---
 title: Python从小白到攻城狮(5)——深入浅出字符串
 urlname: python-5-string
-date: 2019-08-25 22:54:02
 tags:
   - python教程
   - 字符串
 categories:
   - Python
+abbrlink: 27490
+date: 2019-08-25 22:54:02
 ---
 
 在[《Python从小白到攻城狮（2）：数据类型和变量》](http://www.chenhanpeng.com/2019/08/06/python_series/Python从小白到攻城狮（2）：数据类型和变量/)中，我们简单介绍过字符串，今天这篇文章，我们将一起学习字符串的更多知识。
@@ -190,6 +191,6 @@ print('no data available for person with id: %s, name: %s' % (id, name))
 也许有人会问，为什么非要使用格式化函数，上述例子用字符串的拼接不也能完成吗？没错，在很多情况下，字符串拼接确实能满足格式化函数的需求。但是使用格式化函数，更加清晰、易读，并且更加规范，不易出错。
 
 
-**文中示例代码**： [python-learning](https://github.com/HamptonChen/python-learning)
+**文中示例代码**： [python-learning](https://github.com/Hanpeng-Chen/python-learning)
 
 未完待续，持续更新中......

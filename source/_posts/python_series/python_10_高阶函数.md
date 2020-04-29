@@ -1,12 +1,13 @@
 ---
 title: Python从小白到攻城狮(10)——高阶函数
 urlname: python-10-higher-order-function
-date: 2019-09-22 21:28:53
 tags:
   - python教程
   - 高阶函数
 categories:
   - Python
+abbrlink: 16994
+date: 2019-09-22 21:28:53
 ---
 
 本节将主要介绍什么是高阶函数、高阶函数的用法以及Python的几个常见的内置高阶函数。
@@ -133,6 +134,6 @@ l2 = sorted(l, key=lambda s:s[1], reverse=True) # 降序
 print(l2)   # [('d', 4), ('c', 3), ('b', 2), ('a', 1)]
 ```
 
-**文中示例代码**： [python-learning](https://github.com/HamptonChen/python-learning)
+**文中示例代码**： [python-learning](https://github.com/Hanpeng-Chen/python-learning)
 
 未完待续，持续更新中......

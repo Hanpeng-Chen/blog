@@ -1,12 +1,13 @@
 ---
-title: Flutter | Dart语言简介
+title: Flutter | 2-Dart语言简介
 urlname: dart-introduction
-date: 2019-12-23 23:30:34
 tags:
   - Dart语法
 categories:
   - 前端
   - Flutter
+abbrlink: 16952
+date: 2019-12-23 23:30:34
 ---
 Dart在静态语法方面和Java非常相似，如类型定义、函数声明、泛型等，而在动态特性方面又和JavaScript很想，如函数式特性、异步支持等。除了融合Java和JavaScript语言的长处外，Dart也具有一些其他具有表现力的语法，如可选命名参数、..(联级运算符)和 ?. （条件成员访问运算符）以及 ?? （判空赋值运算符）。
 

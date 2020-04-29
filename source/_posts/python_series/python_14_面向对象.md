@@ -7,6 +7,7 @@ tags:
 urlname: python-14-object-oriented-programming
 categories:
   - Python
+abbrlink: 52362
 date: 2019-10-17 06:44:41
 ---
 
@@ -368,6 +369,6 @@ print (v1 + v2)
 ```
 
 
-**文中示例代码**： [python-learning](https://github.com/HamptonChen/python-learning)
+**文中示例代码**： [python-learning](https://github.com/Hanpeng-Chen/python-learning)
 
 未完待续，持续更新中......

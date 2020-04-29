@@ -7,3 +7,4 @@ public/
 .deploy*/
 themes/next/
 themes/pure/
+.vscode/settings.json

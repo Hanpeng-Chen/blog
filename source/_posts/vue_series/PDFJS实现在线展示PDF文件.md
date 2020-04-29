@@ -1,12 +1,13 @@
 ---
 title: PDF.js实现在线展示pdf文件
 urlname: PDF.js-use
-date: 2019-06-28 00:03:24
 tags:
   - pdf.js
   - 在线预览PDF文件
 categories:
   - 前端
+abbrlink: 61634
+date: 2019-06-28 00:03:24
 ---
 
 # 背景
@@ -102,4 +103,4 @@ let loadingTask = pdfJS.getDocument({
 ```
 
 **完整代码获取：**
-https://github.com/HamptonChen/hampton-demo-repo/tree/master/example-project
+https://github.com/Hanpeng-Chen/hampton-demo-repo/tree/master/example-project

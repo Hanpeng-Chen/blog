@@ -7,6 +7,7 @@ tags:
   - SMTP/POP3
 categories:
   - Python
+abbrlink: 15308
 date: 2020-01-17 00:00:00
 ---
 
@@ -343,6 +344,6 @@ part 1
   Text: <div style="line-height:1.7;color:#000000;font-size:14px;font-family:Arial"><div>Hello Python！</div><div>测试邮件</div></div><br><br><span title="neteasefooter"><p>&nbsp;</p></span>...
 ```
 
-**完整的示例代码：** [python-learning](https://github.com/HamptonChen/python-learning/tree/master/20-%E7%94%B5%E5%AD%90%E9%82%AE%E4%BB%B6)
+**完整的示例代码：** [python-learning](https://github.com/Hanpeng-Chen/python-learning/tree/master/20-%E7%94%B5%E5%AD%90%E9%82%AE%E4%BB%B6)
 
 未完待续，持续更新中......

@@ -1,12 +1,13 @@
 ---
 title: Python从小白到攻城狮(7)——函数
 urlname: python-7-function
-date: 2019-09-05 15:55:35
 tags:
   - python教程
   - 函数
 categories:
   - Python
+abbrlink: 63093
+date: 2019-09-05 15:55:35
 ---
 # 什么是函数
 ---
@@ -151,7 +152,7 @@ print(fact(10))
 # 总结
 本节介绍了Python函数的定义，不同类型的参数的使用以及递归函数的用法。
 
-**文中示例代码**： [python-learning](https://github.com/HamptonChen/python-learning)
+**文中示例代码**： [python-learning](https://github.com/Hanpeng-Chen/python-learning)
 
 未完待续，持续更新中......
 

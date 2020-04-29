@@ -1,12 +1,13 @@
 ---
-title: Flutter | 创建第一个Flutter应用
-date: 2020-01-03 21:53:21
+title: Flutter | 3-创建第一个Flutter应用
 urlname: create-first-flutter-app
 tags:
   - 第一个Fultter应用
 categories:
   - 前端
   - Flutter
+abbrlink: 47366
+date: 2020-01-03 21:53:21
 ---
 用Android Studio和VS Code创建的Flutter应用模板默认是一个简单的计数器示例。今天我们通过创建的计数器示例来了解Flutter应用程序的结构。
 

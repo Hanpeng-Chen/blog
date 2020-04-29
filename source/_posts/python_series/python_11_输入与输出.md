@@ -1,11 +1,12 @@
 ---
 title: Python从小白到攻城狮(11)——输入与输出
 urlname: python-11-input-and-output
-date: 2019-09-23 22:49:27
 tags:
   - python教程
 categories:
   - Python
+abbrlink: 34189
+date: 2019-09-23 22:49:27
 ---
 在前面章节中，我们已经用过Python的输入和输出功能，本节将具体介绍Python的输入和输出。
 
@@ -185,6 +186,6 @@ print('after json loads')
 print('type of origin_data is {}, origin_data = {}'.format(type(origin_data), origin_data))
 ```
 
-**文中示例代码**： [python-learning](https://github.com/HamptonChen/python-learning)
+**文中示例代码**： [python-learning](https://github.com/Hanpeng-Chen/python-learning)
 
 未完待续，持续更新中......

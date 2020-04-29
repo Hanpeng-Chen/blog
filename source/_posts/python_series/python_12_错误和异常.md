@@ -1,12 +1,13 @@
 ---
 title: Python从小白到攻城狮(12)——错误和异常
 urlname: python-12-error-and-exception
-date: 2019-09-27 10:12:37
 tags:
   - python教程
   - 错误/异常
 categories:
   - Python
+abbrlink: 35885
+date: 2019-09-27 10:12:37
 ---
 
 和其他语言一样，异常处理是Python中一种很常见，并且很重要的机制和代码规范。
@@ -233,6 +234,6 @@ error: 1 is invalid input
 - 异常处理，通常用在你不确定某段代码能否成功执行，也无法轻易判断的情况下，比如数据库的连接、读取等等。正常的flow-control逻辑，不要使用异常处理，直接用条件语句解决就可以了。
 
 
-**文中示例代码**： [python-learning](https://github.com/HamptonChen/python-learning)
+**文中示例代码**： [python-learning](https://github.com/Hanpeng-Chen/python-learning)
 
 未完待续，持续更新中......

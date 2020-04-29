@@ -1,12 +1,13 @@
 ---
 title: 中文分词Python库介绍
 urlname: python-packages-for-Chinese-word-segmentation
-date: 2019-04-21 17:05:40
 tags:
   - 中文分词
 categories:
   - 机器学习
 excerpt: 本文将介绍几个比较有代表性的支持中文分词的python库
+abbrlink: 38709
+date: 2019-04-21 17:05:40
 ---
 
 在前面的文章《中文分词》一文中，我们简单介绍了中文分词及其常用的分词方法，本文将介绍几个比较有代表性的支持中文分词的python库。

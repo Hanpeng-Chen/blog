@@ -7,6 +7,7 @@ tags:
 urlname: python-13-iterator
 categories:
   - Python
+abbrlink: 54458
 date: 2019-10-10 00:36:00
 ---
 # 迭代器
@@ -141,6 +142,6 @@ while True:
 ```
 
 
-**文中示例代码**： [python-learning](https://github.com/HamptonChen/python-learning)
+**文中示例代码**： [python-learning](https://github.com/Hanpeng-Chen/python-learning)
 
 未完待续，持续更新中......

@@ -6,6 +6,7 @@ tags:
   - 物体检测
 categories:
   - 机器学习
+abbrlink: 42886
 date: 2019-06-21 23:50:14
 ---
 # TensorFlow Object Detection API介绍
@@ -186,4 +187,4 @@ cv2.destroyAllWindows()
 至此我们利用tensorflow提供的物体检测API，实现了图片和视频的物体检测。
 
 完整的代码和检测后的视频，请至github查看：
-https://github.com/HamptonChen/tensorflow-learning
+https://github.com/Hanpeng-Chen/tensorflow-learning

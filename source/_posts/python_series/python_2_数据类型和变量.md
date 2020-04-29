@@ -1,11 +1,12 @@
 ---
 title: Python从小白到攻城狮(2)——数据类型和变量
 urlname: python-2-data-type-variable
-date: 2019-08-06 21:31:03
 tags:
   - python教程
 categories:
   - Python
+abbrlink: 9
+date: 2019-08-06 21:31:03
 ---
 本系列Python文章基于Python3版本，关于python的安装和配置自行百度，这里不做详细介绍。
 
