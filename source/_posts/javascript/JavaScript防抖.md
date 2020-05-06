@@ -12,7 +12,10 @@ categories:
 
 # 前言
 
-在前端开发过程中，我们会遇到一些频繁触发的事件，比如：window的resize和scroll、mousemove、keyup、keydown等等。
+在前端开发过程中，我们会遇到一些频繁触发的事件，但我们需要控制回调的频率，比如下面几种场景：
+- 游戏中的按键响应，比如格斗，比如射击，需要控制出拳和射击的速率。
+- 自动完成，按照一定频率分析输入，提示自动完成。
+- 鼠标移动和窗口滚动，鼠标稍微移动一下，窗口稍微滚动一下会带来大量的事件，因而需要控制回调的发生频率。
 
 下面我们通过代码来看看mousemove事件是如何频繁触发的：
 
@@ -63,7 +66,8 @@ index.html文件代码如下：
 函数防抖(debounce)：在事件被触发n秒后再执行回调，如果在这n秒内又被触发，则重新计时。
 
 ## 初步实现
-根据上面防抖的描述，我们可以利用延时函数setTimeout写第一版防抖函数的实现代码：
+根据上面防抖的描述，我们可以用setTimeout写第一版防抖函数的实现代码：
+
 ```javascript
 function debounce(func, wait) {
   var timeout
@@ -81,7 +85,7 @@ container.onmousemove = debounce(mouseMove, 1000)
 
 这样子修改后，只有在我们移动完1s内不再触发，才会执行回调事件mouseMove。
 
-## this
+## this指向问题
 我们在mouseMove函数中执行 console.log(this)，会发现不使用debounce和使用debounce情况下，this的值是不一样的。
 
 不使用debounce时this的值为
@@ -109,6 +113,7 @@ function debounce(func, wait) {
 
 ## event对象
 JavaScript在事件处理函数中会提供事件对象event，我们将mouseMove函数修改如下：
+
 ```javascript
 function mouseMove(e) {
 	console.log(this);
@@ -116,7 +121,8 @@ function mouseMove(e) {
 	container.innerHTML = count++;
 };
 ```
-如果不使用debounce函数，控制台打印的e是MouseEvent对象，但当我们调用debounce函数，打印出来的确实undefined。
+
+如果不使用debounce函数，控制台打印的e是MouseEvent对象，但当我们调用debounce函数，打印出来的却是`undefined`。
 
 所以我们再次修改代码如下：
 ```javascript
