@@ -7,6 +7,7 @@ tags:
  - JavaScript
  - 节流
 categories:
+ - 前端
  - JavaScript
 ---
 
