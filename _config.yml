@@ -6,7 +6,7 @@
 title: 代码视界
 subtitle: Hampton Chen's Blog
 description: 个人技术博客，分享前端、Python、机器学习和大数据等方面的技术文章。
-keywords: Java, Python, JavaScript, Vue, 大数据, 机器学习
+keywords: Java, Python, JavaScript, Vue, 前端, 大数据, 机器学习, Flutter
 author: Hampton Chen
 language: zh-CN
 timezone: Asia/Shanghai
@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 url: http://www.chenhanpeng.com
 root: /
 permalink: :urlname/
-permalink_defaults:
+permalink_defaults: :abbrlink.html
 
 # Directory
 source_dir: source
@@ -92,12 +92,12 @@ deploy:
 qiniu:
     offline: false
     sync: true
-    bucket: 
+    bucket: chenhanpeng-blog-image
     # secret_file: sec/qn.json or C:
     access_key: 
     secret_key: 
     dirPrefix: static
-    urlPrefix: 
+    urlPrefix: http://image.chenhanpeng.com/static
     up_host: http://upload-z2.qiniup.com
     local_dir: static
     update_exist: true

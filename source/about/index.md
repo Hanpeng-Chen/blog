@@ -12,4 +12,4 @@ sidebar: custom
 本博客主要记录和分享一些平时学习或看到的知识，如有错误之处烦请指正。博客内容主要集中在前端、机器学习和大数据领域，但不局限于此。
 
 **Contact**
-Email: chenhp1994@163.com
+Email: hanpengchen07@163.com

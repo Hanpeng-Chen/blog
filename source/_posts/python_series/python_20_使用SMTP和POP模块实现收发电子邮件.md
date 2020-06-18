@@ -143,7 +143,7 @@ from email.header import Header
 from_address = '1036445344@qq.com'
 from_account_password = '****************' # 第三方登录邮箱的授权码，QQ邮箱为16位授权码
 # 输入收件人地址
-to_address = 'chenhp1994@163.com'
+to_address = 'hanpengchen07@163.com'
 
 msgRoot = MIMEMultipart('related')
 msgRoot['From'] = Header("Python开发", 'utf-8')
@@ -332,7 +332,7 @@ def guess_charset(msg):
 运行程序，结果如下：
 ```
 Message: 739.  Size: 144832488
-From: chenhp <chenhp1994@163.com>
+From: chenhp <hanpengchen07@163.com>
 To:  <1036445344@qq.com>
 Subject: 测试邮件
 part 0
