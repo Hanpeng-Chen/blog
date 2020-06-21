@@ -33,6 +33,8 @@ let array1 = [1, 3, 3, 'a', [1, 2, 3], {obj: 1}]
 array1.toString()   // 1,3,3,a,1,2,3,[object Object]
 ```
 
+> 欢迎关注我的微信公众号：前端极客技术(FrontGeek)
+
 ## Array.isArray()
 该方法返回一个布尔值，表示参数是否为数组。
 

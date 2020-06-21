@@ -1,12 +1,14 @@
 ---
 title: JavaScript数组去重
-tags: javascript-array-unique - JavaScript - 数组去重
+tags:
+  - JavaScript
+  - 数组去重
 categories:
   - 前端
   - JavaScript
 abbrlink: 15019
 date: 2020-06-14 22:57:57
-urlname:
+urlname: javascript-array-unique
 ---
 JavaScript的数组去重是前端面试中比较常见的一道题，今天我们一起来看看这道题。
 
