@@ -1,5 +1,6 @@
 ---
-title: JavaScript数组去重
+title: JavaScript-数组去重
+urlname: javascript-array-unique
 tags:
   - JavaScript
   - 数组去重
@@ -7,16 +8,18 @@ categories:
   - 前端
   - JavaScript
 abbrlink: 15019
-date: 2020-06-14 22:57:57
-urlname: javascript-array-unique
+date: 2020-06-30 09:08:57
 ---
-JavaScript的数组去重是前端比较常见的一个问题，今天我们来学习如何实现数组去重。
+## 前言
+JavaScript的数组去重是前端比较常见的一个问题，今天我们来学习几种常见的数组去重方法。
 
 
 > 欢迎关注我的微信公众号：前端极客技术(FrontGeek)
 
 ## 双层循环
-大部分人最先想到的是通过两次循环解决，我们先新建一个空的数组res，通过遍历待去重数组array和res，判断array[i]是否存在于res中，如果不存在，将array[i]push到res中。
+大部分人最先想到的是通过双层循环来去重。双层循环的实现原理很简单：我们先新建一个空的数组res，通过遍历待去重数组array和res，判断array[i]是否存在于res中，如果不存在，将array[i]push到res中。
+
+该方法虽然简单，但是其时间复杂度为 O(n^2)，如果数组长度很大，那么会非常耗费内存。
 
 我们直接看下面的代码：
 ```javascript
@@ -64,17 +67,15 @@ console.log(unique(array))   // [1, "1", 2, 3, "2"]
 
 实现代码如下：
 ```js
-var array = [1, 1, '1', '1', 2, 3, '2']
+let array = [1, 1, '1', '1', 2, 3, '2']
 
 function unique(arr) {
-  var res = []
-  var sortedArr = arr.concat().sort()
-  var pre
-  for (var i = 0; i < sortedArr.length; i++) {
-    if (!pre || pre !== sortedArr[i]) {
-      res.push(sortedArr[i])
+  let sortedArr = arr.concat().sort()
+  let res = []
+  for (let i = 0; i < sortedArr.length; i++) {
+    if (sortedArr[i] !== sortedArr[i-1]) {
+        res.push(sortedArr[i])
     }
-    pre = sortedArr[i]
   }
   return res
 }
@@ -148,6 +149,9 @@ var array = ['true','true',true,true,0,0,1,1,'1','1',15,15,false,false,undefined
 // indexOf
 ["true", true, 0, 1, "1", 15, false, undefined, null, NaN, NaN, "NaN", "a", {}, {}, {a:2}, {a:2}]
 
+// sort排序后去重
+[0, 1, "1", 15, NaN, NaN, "NaN", {}, {}, {a:2}, {a:2}, "a", false, null, "true", true, undefined]
+
 // filter + indexOf
 ["true", true, 0, 1, "1", 15, false, undefined, null, "NaN", "a", {}, {}, {a:2}, {a:2}]
 
@@ -177,7 +181,7 @@ var array = ['true','true',true,true,0,0,1,1,'1','1',15,15,false,false,undefined
 
 使用=== 判断两个NaN是否相等，得到的结果为false。
 
-## 优化
+## 优化：数组元素包含对象的去重
 如果元素是对象，我们利用Object键值对的方式来进行去重，利用JSON.stringify将对象序列化后存为Object的key值，比如：`Object[value]=1`，在判断另一个元素时，如果Object[value2]存在的话，说明该值重复。
 
 如果元素不是对象，我们使用includes来判断新的数组res中是否有当前值。
@@ -208,3 +212,6 @@ function unique(arr) {
 console.log(unique(array))
 // ["true", true, 0, 1, "1", 15, false, undefined, null, NaN, "NaN", "a", {}, {a:2}]
 ```
+
+## 总结
+数组去重是开发中经常会碰到的一个问题，我们可以根据不同的应用场景来选择不同的实现方式。如果数组中不包含对象，我们可以直接使用Set进行去重，如果存在对象，则可以选择最后Object键值对的方式。
