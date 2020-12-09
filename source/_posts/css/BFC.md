@@ -18,11 +18,12 @@ BFC是之前前端面试中经常问到一个问题，这篇文章我们一起�
 
 BFC(Block Formatting Context)：快格式化上下文，是web页面的可视化CSS渲染的一部分，是块盒子的布局过程发生的区域，也是浮动元素与其他元素交互的区域。它有一套渲染规则，决定了其子元素将如何定位，以及和其他元素的关系和相互作用。
 
+快格式化上下文包含创建它的元素内部的所有内容。
+
 具有BFC特性的元素我们可以将其看作隔离的独立容器，容器内的元素不会在布局上影响到容器外的元素，而且BFC具有普通容器所没有的一些特性。
 
-
 ## 如何创建BFC
-在了解BFC特性之前，我们先来看下都有哪些方式会创建BFC：
+在了解BFC特性之前，我们先来看下都有哪些方式会创建BFC(摘抄自MDN)：
 
 - 根元素
 - 浮动元素（元素的 float 不是 none）
@@ -39,10 +40,15 @@ BFC(Block Formatting Context)：快格式化上下文，是web页面的可视化
 - 多列容器（元素的 column-count 或 column-width 不为 auto，包括 column-count 为 1）
 - column-span 为 all 的元素始终会创建一个新的BFC，即使该元素没有包裹在一个多列容器中（标准变更，Chrome bug）。
 
-快格式化上下文包含创建它的元素内部的所有内容。
-
-
 > 欢迎关注我的微信公众号：前端极客技术(FrontGeek)
+
+## BFC的布局规则
+
+- 内部的Box会在垂直方向上一个接一个的放置
+- 内部的Box垂直方向上的距离由margin决定。属于同一个BFC的两个相邻Box的margin会发生折叠，不同BFC不会发生折叠。
+- 每个元素的左外边距与包含块的左边界相接触（从左向右），即使浮动元素也是如此。（这说明BFC中子元素不会超出他的包含块，而position为absolute的元素可以超出他的包含块边界）
+- BFC的区域不会与float的元素区域重叠
+- 计算BFC的高度时，浮动子元素也参与计算
 
 ## BFC特性及应用
 
@@ -146,6 +152,8 @@ BFC(Block Formatting Context)：快格式化上下文，是web页面的可视化
 
 ### BFC可以阻止元素被浮动元素覆盖
 
+BFC可以阻止元素被浮动元素覆盖，在了解这个特性之前，先看下面的代码：
+
 ```html
 <div style="float: left;width: 200px;background-color: #108EE9;">
   浮动区域
@@ -164,6 +172,39 @@ BFC(Block Formatting Context)：快格式化上下文，是web页面的可视化
 
 利用BFC可以阻止元素被浮动元素覆盖的特性，我们解决CSS的两列自适应布局问题。
 
+### 阻止因为浏览器因为四舍五入造成的多列布局换行的情况
+有时候因为多列布局采用小数点位的width导致因为浏览器因为四舍五入造成的换行的情况，可以在最后一列触发BFC的形式来阻止换行的发生。比如下面的例子：
+
+```html
+<style>
+.container {
+  min-height: 200px;
+}
+.column1,.column2 {
+  width: 31.3%;
+  background-color: green;
+  float: left;
+  min-height: 100px;
+  margin: 0 1%;
+}
+.column3 {
+  width: 31.3%;
+  background-color: green;
+  min-height: 100px;
+  margin: 0 1%;
+}
+</style>
+
+<div class="container">
+  <div class="column1">column 1</div>
+  <div class="column2">column 2</div>
+  <div class="column3">column 3</div>
+</div>
+```
+![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2020/winter/20201209114510.png)
+
+从上图看出，我们最后一列出现换行情况，我们在对最后一列触发BFC特性，加入`overflow: hidden`，页面重新渲染结果如下：
+![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2020/winter/20201209114736.png)
 
 #### 参考资料：
 
