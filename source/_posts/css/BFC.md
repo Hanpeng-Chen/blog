@@ -1,6 +1,5 @@
 ---
 title: CSS面试题：什么是BFC？BFC有什么用？
-date: 2020-12-09 09:30:48
 urlname: css-bfc
 tags:
   - 前端
@@ -10,6 +9,8 @@ categories:
   - 前端
   - CSS
   - 面试
+abbrlink: 26971
+date: 2020-12-09 09:30:48
 ---
 
 BFC是之前前端面试中经常问到一个问题，这篇文章我们一起来学习BFC。
