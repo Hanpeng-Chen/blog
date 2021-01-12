@@ -23,13 +23,20 @@
 - [JavaScript-数组去重](./source/_posts/javascript/JavaScript数组去重.md)
 - [JavaScript-数组乱序](./source/_posts/javascript/JavaScript数组乱序.md)
 
+
+### 性能
+- [前端性能指标：白屏和首屏时间的计算](./source/_posts/fe/白屏和首屏时间计算.md)
+
+### 浏览器和网络
+- [一文彻底掌握HTTP缓存](./source/_posts/fe/HTTP缓存.md)
+
+### CSS
+- [CSS面试题：什么是BFC？BFC有什么用？](./source/_posts/css/BFC.md)
+
 ### 前端实践技巧
 - [微信小程序使用otp算法踩坑总结](./source/_posts/bug_summary/微信小程序使用otp算法踩坑总结.md)
 - [PDFJS实现在线展示PDF文件](./source/_posts/vue_series/PDFJS实现在线展示PDF文件.md)
 - [Vue-CLI3 环境变量和模式](./source/_posts/vue_series/vue-cli3-环境变量和模式.md)
-
-### CSS
-- [CSS面试题：什么是BFC？BFC有什么用？](./source/_posts/css/BFC.md)
 
 
 ### Flutter
@@ -45,15 +52,11 @@
 
 
 ## 面试相关
-### 面经
 - [2020年腾讯华为前端面经分享](./source/_posts/interview/2020年腾讯华为前端面经分享.md)
-
-### 浏览器与网络
 - [一文掌握9大跨域解决方案](./source/_posts/interview/跨域及其九种解决方法.md)
-### 算法
 - [你还在用二分法求2个鸡蛋100层楼的问题吗？](./source/_posts/interview/2个鸡蛋100层楼.md)
 
-### LeetCode题解
+## LeetCode题解
 - [LeetCode题解-1-两数之和](./source/_posts/leetcode/LeetCode题解-1-两数之和.md)
 - [LeetCode题解-15-三数之和](./source/_posts/leetcode/LeetCode题解-15-三数之和.md)
 - [LeetCode题解-206-反转链表](./source/_posts/leetcode/LeetCode题解-206-反转链表.md)
@@ -100,3 +103,6 @@
 
 ## 最后
 如果有疑问或者发现错误，可以提issue进行提问或勘误。
+
+欢迎关注公众号 **前端极客技术** 一起学习成长！ 
+![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2020/winter/20201209120654.png)
