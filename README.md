@@ -56,6 +56,9 @@
 - [一文掌握9大跨域解决方案](./source/_posts/interview/跨域及其九种解决方法.md)
 - [你还在用二分法求2个鸡蛋100层楼的问题吗？](./source/_posts/interview/2个鸡蛋100层楼.md)
 
+## 设计模式
+- [JavaScript设计模式——工厂模式](./source/_posts/javascript_design_pattern/JavaScript设计模式——工厂模式.md)
+
 ## LeetCode题解
 - [LeetCode题解-1-两数之和](./source/_posts/leetcode/LeetCode题解-1-两数之和.md)
 - [LeetCode题解-15-三数之和](./source/_posts/leetcode/LeetCode题解-15-三数之和.md)
