@@ -29,6 +29,7 @@
 
 ### 浏览器和网络
 - [一文彻底掌握HTTP缓存](./source/_posts/fe/HTTP缓存.md)
+- [聊一聊浏览器本地存储](./source/_posts/fe/聊一聊浏览器本地存储.md)
 
 ### CSS
 - [CSS面试题：什么是BFC？BFC有什么用？](./source/_posts/css/BFC.md)
@@ -49,6 +50,7 @@
 
 ## 数据结构与算法
 - [十大经典排序算法](./source/_posts/algorithm/十大经典排序算法.md)
+- [JavaScript中的数据结构—链表](./source/_posts/algorithm/JavaScript中的数据结构—链表.md)
 
 
 ## 面试相关
@@ -58,6 +60,7 @@
 
 ## 设计模式
 - [JavaScript设计模式——工厂模式](./source/_posts/javascript_design_pattern/JavaScript设计模式——工厂模式.md)
+- [JavaScript设计模式—单例模式](./source/_posts/javascript_design_pattern/JavaScript设计模式—单例模式.md)
 
 ## LeetCode题解
 - [LeetCode题解-1-两数之和](./source/_posts/leetcode/LeetCode题解-1-两数之和.md)
