@@ -27,6 +27,7 @@
 - [JavaScript-数组扁平化](./source/_posts/javascript/JavaScript数组扁平化.md)
 - [JavaScript-数组去重](./source/_posts/javascript/JavaScript数组去重.md)
 - [JavaScript-数组乱序](./source/_posts/javascript/JavaScript数组乱序.md)
+- [聊一聊JavaScript类型判断的四种方法](./source/_posts/javascript/聊一聊JavaScript类型判断的四种方法.md)
 
 
 ### 性能
