@@ -65,6 +65,7 @@
 - [一文掌握9大跨域解决方案](./source/_posts/interview/跨域及其九种解决方法.md)
 - [你还在用二分法求2个鸡蛋100层楼的问题吗？](./source/_posts/interview/2个鸡蛋100层楼.md)
 - [【面试真题系列】Vue中的v-if和v-show有什么区别？](./source/_posts/interview/Vue中的v-if和v-show有什么区别.md)
+- [【面试题】说一说你对Vue响应式原理的理解](./source_posts/interview/说一说你对Vue响应式原理的理解.md)
 
 ## 设计模式
 - [JavaScript设计模式——工厂模式](./source/_posts/javascript_design_pattern/JavaScript设计模式——工厂模式.md)
