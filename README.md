@@ -66,6 +66,7 @@
 - [你还在用二分法求2个鸡蛋100层楼的问题吗？](./source/_posts/interview/2个鸡蛋100层楼.md)
 - [【面试真题系列】Vue中的v-if和v-show有什么区别？](./source/_posts/interview/Vue中的v-if和v-show有什么区别.md)
 - [【面试题】说一说你对Vue响应式原理的理解](./source_posts/interview/说一说你对Vue响应式原理的理解.md)
+- [【面试题】Vue2中如何检测数组变化？](./source/_posts/interview/Vue2中如何检测数组变化.md)
 
 ## 设计模式
 - [JavaScript设计模式——工厂模式](./source/_posts/javascript_design_pattern/JavaScript设计模式——工厂模式.md)
