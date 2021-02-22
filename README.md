@@ -28,6 +28,7 @@
 - [JavaScript-数组去重](./source/_posts/javascript/JavaScript数组去重.md)
 - [JavaScript-数组乱序](./source/_posts/javascript/JavaScript数组乱序.md)
 - [聊一聊JavaScript类型判断的四种方法](./source/_posts/javascript/聊一聊JavaScript类型判断的四种方法.md)
+- [这一次彻底掌握JavaScript的深浅拷贝](./source/_posts/javascript/这一次彻底掌握JavaScript的深浅拷贝.md)
 
 
 ### 性能
