@@ -156,9 +156,9 @@ const shallowCopy = (target) => {
 
 知道了深拷贝的原理后，我们来看下都有哪些深拷贝的方法：
 
-### 乞丐版：JSON.stringfy
+### 乞丐版：JSON.stringify
 
-JSON.stringfy() 方法是开发中常用的也是最简单的深拷贝方法，其实就是将一个对象序列化为JSON的字符串，并将对象中的内容转换为字符串，最后再用JSON.parse()方法将JSON字符串生成一个新的对象。
+JSON.stringify() 方法是开发中常用的也是最简单的深拷贝方法，其实就是将一个对象序列化为JSON的字符串，并将对象中的内容转换为字符串，最后再用JSON.parse()方法将JSON字符串生成一个新的对象。
 
 ```js
 let obj = {a: 1, b: [1, 2, 3]};
@@ -170,7 +170,7 @@ obj.b.push(4)
 console.log(obj)
 console.log(newObj)
 ```
-从上面的代码可以看到，通过 JSON.stringfy 可以初步实现一个对象的深拷贝，通过改变 obj 的 a 属性，其实可以看出 newObj 这个对象也不受影响。
+从上面的代码可以看到，通过 JSON.stringify 可以初步实现一个对象的深拷贝，通过改变 obj 的 a 属性，其实可以看出 newObj 这个对象也不受影响。
 
 
 我们来看看下面几种使用JSON.stringify方法进行深拷贝的情况：
