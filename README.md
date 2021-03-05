@@ -74,11 +74,12 @@
 - [JavaScript设计模式——工厂模式](./source/_posts/javascript_design_pattern/JavaScript设计模式——工厂模式.md)
 - [JavaScript设计模式—单例模式](./source/_posts/javascript_design_pattern/JavaScript设计模式—单例模式.md)
 
-## LeetCode题解
+## LeetCode系列
 - [LeetCode题解-1-两数之和](./source/_posts/leetcode/LeetCode题解-1-两数之和.md)
 - [LeetCode题解-15-三数之和](./source/_posts/leetcode/LeetCode题解-15-三数之和.md)
 - [LeetCode题解-206-反转链表](./source/_posts/leetcode/LeetCode题解-206-反转链表.md)
 - [LeetCode题解-215-数组中的第K个最大元素](./source/_posts/leetcode/LeetCode题解-215-数组中的第K个最大元素.md)
+- [LeetCode系列-42-接雨水](./source/_posts/leetcode/LeetCode-42-接雨水.md)
 
 ## Python
 - [python_1_python环境搭建](./source/_posts/python_series/python_1_python环境搭建.md)
