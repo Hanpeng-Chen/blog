@@ -1,12 +1,13 @@
 ---
 title: 「LeetCode系列」42.接雨水
+tags:
+  - LeetCode题解
+  - 面试
+categories:
+  - LeetCode
+abbrlink: 56686
 date: 2021-03-05 10:37:45
 urlname:
-tags:
- - LeetCode题解
- - 面试
-categories:
- - LeetCode
 ---
 
 > 作者：Hanpeng_Chen
