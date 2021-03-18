@@ -69,6 +69,7 @@
 - [【面试真题系列】Vue中的v-if和v-show有什么区别？](./source/_posts/interview/Vue中的v-if和v-show有什么区别.md)
 - [【面试题】说一说你对Vue响应式原理的理解](./source_posts/interview/说一说你对Vue响应式原理的理解.md)
 - [【面试题】Vue2中如何检测数组变化？](./source/_posts/interview/Vue2中如何检测数组变化.md)
+- [「高频面试题」浏览器从输入url到页面展示中间发生了什么](./source/_posts/interview/浏览器从输入url到页面展示中间发生了什么.md)
 
 ## 设计模式
 - [JavaScript设计模式——工厂模式](./source/_posts/javascript_design_pattern/JavaScript设计模式——工厂模式.md)
