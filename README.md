@@ -19,6 +19,7 @@
 
 
 ### 手写源码系列
+- [一起手写实现符合Promise/A+规范的Promise源码](.\source\_posts\javascript\手写Promise源码.md)
 
 ### JavaScript
 - [JavaScript-函数防抖](./source/_posts/javascript/JavaScript防抖.md)
