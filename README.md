@@ -7,9 +7,10 @@
 欢迎关注公众号 **前端极客技术** 一起学习成长！ 
 
 ## 专栏
+- **微信公众号：**『前端极客技术』  『代码视界』
 - [个人博客网站：代码视界](http://www.chenhanpeng.com/)
 - [掘金主页](https://juejin.cn/user/1063982988795911)
-- 微信公众号『代码视界』『前端极客技术』
+- [知乎](https://www.zhihu.com/people/hanpengchen)
 
 ![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2020/autumn/article-gzh-qrcode.png)
 
@@ -31,6 +32,7 @@
 - [聊一聊JavaScript类型判断的四种方法](./source/_posts/javascript/聊一聊JavaScript类型判断的四种方法.md)
 - [这一次彻底掌握JavaScript的深浅拷贝](./source/_posts/javascript/这一次彻底掌握JavaScript的深浅拷贝.md)
 - [「面试必备」一文吃透JavaScript继承](./source/_posts/javascript/一文吃透JavaScript继承.md)
+- [一起搞清楚JS中的new到底做了什么，并模拟实现一个new](./source/_posts/javascript/JS中的new.md)
 
 
 ### 性能
