@@ -5,8 +5,7 @@ tags:
   - JavaScript
   - 数组扁平化
 categories:
-  - 前端
-  - JavaScript
+  - [前端, JavaScript]
 abbrlink: 46152
 date: 2020-06-20 16:28:25
 ---

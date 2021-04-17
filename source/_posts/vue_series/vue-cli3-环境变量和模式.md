@@ -6,8 +6,7 @@ tags:
   - 模式
   - 环境变量
 categories:
-  - 前端
-  - Vue
+  - [前端, Vue]
 abbrlink: 12523
 date: 2019-04-29 22:46:30
 ---

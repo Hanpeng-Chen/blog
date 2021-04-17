@@ -4,10 +4,10 @@
 
 # Site
 title: 代码视界
-subtitle: Hampton Chen's Blog
-description: 个人技术博客，分享前端、Python、机器学习和大数据等方面的技术文章。
-keywords: Java, Python, JavaScript, Vue, 前端, 大数据, 机器学习, Flutter
-author: Hampton Chen
+subtitle: Hanpeng Chen's Blog
+description: HanpengChen 的技术博客，主要分享前端领域相关优质技术文章、教程、项目经验、面试经验、行业前沿信息等，偶尔分享Python、机器学习和大数据等方面的技术文章。
+keywords: 前端, JavaScript, Vue, HTML, CSS, 前端技术文章, Flutter, Python, 大数据, 机器学习
+author: Hanpeng Chen
 language: zh-CN
 timezone: Asia/Shanghai
 

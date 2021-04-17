@@ -5,8 +5,7 @@ tags:
   - JavaScript
   - 乱序
 categories:
-  - 前端
-  - JavaScript
+  - [前端, JavaScript]
 abbrlink: 42253
 date: 2020-08-12 20:56:25
 ---

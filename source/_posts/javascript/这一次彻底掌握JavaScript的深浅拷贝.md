@@ -4,8 +4,7 @@ urlname: javascript-shallow-copy-and-deep-copy
 tags:
   - 深浅拷贝
 categories:
-  - 前端
-  - JavaScript
+  - [前端, JavaScript]
 abbrlink: 42023
 date: 2021-02-22 23:30:45
 ---

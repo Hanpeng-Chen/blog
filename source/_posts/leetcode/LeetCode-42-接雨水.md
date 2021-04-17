@@ -4,7 +4,7 @@ tags:
   - LeetCode题解
   - 面试
 categories:
-  - LeetCode
+  - [算法, LeetCode]
 abbrlink: 56686
 date: 2021-03-05 10:37:45
 urlname:

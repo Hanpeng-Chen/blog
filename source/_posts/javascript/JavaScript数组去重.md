@@ -5,8 +5,7 @@ tags:
   - JavaScript
   - 数组去重
 categories:
-  - 前端
-  - JavaScript
+  - [前端, JavaScript]
 abbrlink: 15019
 date: 2020-06-30 09:08:57
 ---

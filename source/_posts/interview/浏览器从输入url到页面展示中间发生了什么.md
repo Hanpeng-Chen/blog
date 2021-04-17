@@ -4,8 +4,8 @@ urlname: what-happens-when-you-type-in-a-url
 tags:
   - 面试
 categories:
-  - 前端
-  - 面试
+  - [前端, 面试]
+  - [面试]
 abbrlink: 55242
 date: 2021-03-18 07:57:40
 ---

@@ -4,8 +4,7 @@ urlname: create-first-flutter-app
 tags:
   - 第一个Fultter应用
 categories:
-  - 前端
-  - Flutter
+  - [前端, Flutter]
 abbrlink: 47366
 date: 2020-01-03 21:53:21
 ---

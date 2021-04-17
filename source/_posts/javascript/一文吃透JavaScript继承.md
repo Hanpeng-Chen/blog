@@ -4,8 +4,7 @@ urlname: inheritance-in-javascript
 tags:
   - 继承
 categories:
-  - 前端
-  - JavaScript
+  - [前端, JavaScript]
 abbrlink: 20247
 date: 2021-02-28 23:53:15
 ---

@@ -6,9 +6,8 @@ tags:
   - CSS
   - BFC
 categories:
-  - 前端
-  - CSS
-  - 面试
+  - [前端, CSS]
+  - [面试]
 abbrlink: 26971
 date: 2020-12-09 09:30:48
 ---

@@ -5,8 +5,7 @@ tags:
   - JavaScript
   - 数组方法
 categories:
-  - 前端
-  - JavaScript
+  - [前端, JavaScript]
 abbrlink: 5225
 date: 2020-06-15 14:52:59
 ---

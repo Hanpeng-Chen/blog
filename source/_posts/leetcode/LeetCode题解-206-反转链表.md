@@ -6,8 +6,7 @@ tags:
   - 面试
   - 链表
 categories:
-  - LeetCode
-  - 算法
+  - [算法, LeetCode]
 abbrlink: 47373
 date: 2020-12-17 23:50:48
 ---

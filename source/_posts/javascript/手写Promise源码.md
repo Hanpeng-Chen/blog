@@ -5,9 +5,8 @@ tags:
   - JavaScript
   - 原理源码
 categories:
-  - 前端
-  - JavaScript
-  - 原理源码
+  - [前端, JavaScript]
+  - [前端, 原理源码]
 abbrlink: 46892
 date: 2021-03-28 10:09:59
 ---

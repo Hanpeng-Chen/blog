@@ -4,8 +4,7 @@ urlname: start-learn-flutter
 tags:
   - Flutter
 categories:
-  - 前端
-  - Flutter
+  - [前端, Flutter]
 abbrlink: 1563
 date: 2019-12-23 23:08:34
 ---

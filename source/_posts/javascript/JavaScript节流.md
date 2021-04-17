@@ -7,8 +7,7 @@ tags:
  - JavaScript
  - 节流
 categories:
- - 前端
- - JavaScript
+ - [前端, JavaScript]
 ---
 
 在上一篇文章 [JavaScript-函数防抖](http://www.chenhanpeng.com/javascript-debounce/) 中我们学习了什么是防抖，并且一步步实现了防抖函数，今天我们一起来学习节流(throttle)。

@@ -6,8 +6,7 @@ tags:
   - 面试
   - 排序
 categories:
-  - LeetCode
-  - 算法
+  - [算法, LeetCode]
 abbrlink: 3399
 date: 2020-09-01 23:12:14
 ---

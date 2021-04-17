@@ -4,8 +4,7 @@ urlname: dart-introduction
 tags:
   - Dart语法
 categories:
-  - 前端
-  - Flutter
+  - [前端, Flutter]
 abbrlink: 16952
 date: 2019-12-23 23:30:34
 ---

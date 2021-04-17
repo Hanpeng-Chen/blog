@@ -4,8 +4,8 @@ urlname: js-new
 tags:
   - JavaScript
 categories:
-  - 前端
-  - JavaScript
+  - [前端, JavaScript]
+  - [前端, 原理源码]
 abbrlink: 18372
 date: 2021-04-13 23:00:06
 ---

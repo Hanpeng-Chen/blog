@@ -7,8 +7,7 @@ tags:
  - JavaScript
  - 防抖
 categories:
- - 前端
- - JavaScript
+ - [前端, JavaScript]
 ---
 
 # 前言

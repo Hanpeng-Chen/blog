@@ -5,8 +5,7 @@ tags:
   - JavaScript
   - 类型判断
 categories:
-  - 前端
-  - JavaScript
+  - [前端, JavaScript]
 abbrlink: 64823
 date: 2021-01-20 20:09:02
 ---
