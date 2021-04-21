@@ -1,12 +1,13 @@
 ---
 title: 在cloudflare上创建一个免费的在线代理来解决gitalk授权登录报403问题
-date: 2021-04-21 11:30:11
 urlname: create-own-cors-anywhere-to-resolve-the-request-with-403
 tags:
   - gitalk
   - 在线代理
 categories:
   - 技术杂谈
+abbrlink: 57490
+date: 2021-04-21 11:30:11
 ---
 
 ## 问题说明
@@ -69,6 +70,9 @@ var gitalk = new Gitalk({
 
 
 ## 利用cloudflare worker搭建在线代理
+
+利用CloudFlare Worker创建在线代理，不需要我们有服务器，也不需要搭建Node.js服务，只需要注册一个CloudFlare账号，创建一个Worker，部署一个JS脚本就可以了，简单方便，下面我们就来看看如何创建吧。
+
 
 首先你需要一个 CloudFlare 的账号，如果还没有的话就先注册一个吧：[点我注册](https://dash.cloudflare.com/)
 
