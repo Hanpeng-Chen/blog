@@ -33,6 +33,7 @@
 - [这一次彻底掌握JavaScript的深浅拷贝](./source/_posts/javascript/这一次彻底掌握JavaScript的深浅拷贝.md)
 - [「面试必备」一文吃透JavaScript继承](./source/_posts/javascript/一文吃透JavaScript继承.md)
 - [一起搞清楚JS中的new到底做了什么，并模拟实现一个new](./source/_posts/javascript/JS中的new.md)
+- [JS中的apply、call、bind你掌握了吗？一起来手写实现这三个方法吧](./source/_posts/javascript/this-apply-call-bind.md)
 
 
 ### 性能
@@ -122,6 +123,9 @@
 - [推荐系统介绍](./source/_posts/big_data/推荐系统介绍.md)
 - [CB-基于内容的推荐算法](./source/_posts/big_data/CB-基于内容的推荐算法.md)
 - [CF-基于协同过滤的推荐算法](./source/_posts/big_data/CF-基于协同过滤的推荐算法.md)
+
+## 技术杂谈
+- [在cloudflare上创建一个免费的在线代理来解决gitalk授权登录报403问题](./source/_posts/other/创建一个免费的在线代理来解决gitalk授权登录报403问题.md)
 
 
 ## 最后
