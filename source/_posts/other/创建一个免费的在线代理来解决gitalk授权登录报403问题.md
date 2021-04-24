@@ -101,7 +101,7 @@ whitelist = [ "^http.?://www.chenhanpeng.com$", "chenhanpeng.com$" ]
 从右侧获取到你的worker域名并记下来，在上面提到的proxy配置项修改为如下代码：
 
 ```js
-proxy: https://bold-forest-51f4.hanpengchen.workers.dev/?https://github.com/login/oauth/access_token
+proxy: https://cloudflare-cors-anywhere.hanpengchen.workers.dev/?https://github.com/login/oauth/access_token
 ```
 
 重新部署我们的博客，再次点击 使用Github登录，这次登录成功，没有报错，至此，个人在线代理就搭建成功了，博客的评论功能也能正常使用了，撒花！！！
