@@ -4,4 +4,8 @@ toc: false
 comments: false
 permalink: /404
 ---
-<script type="text/javascript" src="//www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="<%- config.url %>" homePageName="回到我的主页"></script>
+
+## 猜你想看
+
+- [PDF.js实现在线展示pdf文件](https://www.chenhanpeng.com/PDF.js-use)
+ 
