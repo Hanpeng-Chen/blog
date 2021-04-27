@@ -10,6 +10,15 @@ abbrlink: 57490
 date: 2021-04-21 11:30:11
 ---
 
+## 2021.04.28 更新
+针对403的问题，gitalk开发团队已经对其做了修复，解决方法如下：
+
+更新版本到 1.7.2 或者修改配置增加 proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+
+当然我们也可以自己动手搭建代理，如果有兴趣的话可以直接下拉看下面的 [利用cloudflare worker搭建在线代理](#create-cors-by-self)
+
+=======
+
 ## 问题说明
 前两天突然发现个人博客的gitalk评论功能出了问题，点击使用Github登录一直失败，打开控制台一查，发现下面这个请求报403。
 
@@ -68,6 +77,7 @@ var gitalk = new Gitalk({
 
 既然白嫖的代理不能用，那我们就自己搭一个在线代理吧。
 
+<div id="create-cors-by-self"></div>
 
 ## 利用cloudflare worker搭建在线代理
 
