@@ -26,3 +26,13 @@ const router = new VueRouter({
 location / {
   try_files $uri $uri/ /index.html;
 }
+
+可能有些同学配置了nginx后，但是刷新页面后控制台报下面的错误：
+
+**Uncaught SyntaxError: Unexpected token <**
+
+如果是通过vue-cli脚手架创建的项目，请检查`vue.config.js`文件中的publicPath是否配置正确
+
+如果是自己手动搭建的Webpack打包，确认assetsPublic的配置，将 `./` 修改为 `/`
+
+https://forum.vuejs.org/t/uncaught-syntaxerror-unexpected-token/32862/18
