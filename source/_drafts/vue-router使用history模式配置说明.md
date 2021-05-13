@@ -1,5 +1,6 @@
 ---
 title: vue-router使用history模式配置说明
+abbrlink: 43664
 date: 2021-05-10 17:29:02
 urlname:
 tags:
