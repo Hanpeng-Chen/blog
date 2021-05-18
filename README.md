@@ -42,6 +42,8 @@
 ### 浏览器和网络
 - [一文彻底掌握HTTP缓存](./source/_posts/fe/HTTP缓存.md)
 - [聊一聊浏览器本地存储](./source/_posts/fe/聊一聊浏览器本地存储.md)
+- [「浏览器渲染流程」你知道HTML、CSS、JS文件在浏览器中是如何转化成页面的吗？](https://www.chenhanpeng.com/how-to-render-page-on-the-browser/)
+- [面试经常提到的重排和重绘，你真的了解吗？](https://www.chenhanpeng.com/reflow-and-repaint/)
 
 ### CSS
 - [CSS面试题：什么是BFC？BFC有什么用？](./source/_posts/css/BFC.md)
