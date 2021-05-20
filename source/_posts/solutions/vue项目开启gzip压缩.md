@@ -1,6 +1,5 @@
 ---
 title: vue项目开启gzip压缩
-date: 2021-05-20 15:01:05
 urlname: use-gzip-in-vue-project
 tags:
   - 解决方案
@@ -8,6 +7,8 @@ tags:
   - vue
 categories:
   - 解决方案
+abbrlink: 16872
+date: 2021-05-20 15:01:05
 ---
 用Vue开发移动端H5，可能很多同学会遇到最后打包上线，用户第一次打开可能有3s，甚至更久的白屏时间，白屏时间过长是很容易导致用户流失的，所以是必须要解决的问题。
 
