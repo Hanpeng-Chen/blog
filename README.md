@@ -36,6 +36,10 @@
 - [JS中的apply、call、bind你掌握了吗？一起来手写实现这三个方法吧](./source/_posts/javascript/this-apply-call-bind.md)
 
 
+### Vue3
+- [学习Vue3新特性](./source/_posts/vue_series/学习Vue3新特性.md)
+
+
 ### 性能
 - [前端性能指标：白屏和首屏时间的计算](./source/_posts/fe/白屏和首屏时间计算.md)
 
