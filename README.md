@@ -34,6 +34,7 @@
 - [「面试必备」一文吃透JavaScript继承](./source/_posts/javascript/一文吃透JavaScript继承.md)
 - [一起搞清楚JS中的new到底做了什么，并模拟实现一个new](./source/_posts/javascript/JS中的new.md)
 - [JS中的apply、call、bind你掌握了吗？一起来手写实现这三个方法吧](./source/_posts/javascript/this-apply-call-bind.md)
+- [学习Vue源码前需要了解的defineProperty和Proxy](./source/_posts/javascript/defineProperty和Proxy.md)
 
 
 ### Vue3
