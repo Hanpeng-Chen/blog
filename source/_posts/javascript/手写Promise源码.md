@@ -404,7 +404,7 @@ npm i -g promises-aplus-tests
 promises-aplus-tests Promise.js
 ```
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2021/20210323235204.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210323235204.png)
 
 promises-aplus-tests中共有872条测试用例。从上面的执行结果可以看出，我们手写的Promise通过所有用例。
 

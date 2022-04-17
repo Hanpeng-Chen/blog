@@ -64,7 +64,7 @@ export default {
 
 使用 (data、computed、methods、watch) 组件选项来组织逻辑通常都很有效。然而，当我们的组件开始变得更大时，逻辑关注点的列表也会增长。尤其对于那些一开始没有编写这些组件的人来说，这会导致组件难以阅读和理解。
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2021/20210627221817.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210627221817.png)
 
 这是一个大型组件的示例，其中逻辑关注点按颜色进行分组。
 
@@ -255,7 +255,7 @@ setTimeout(() => {
 ### 生命周期
 通过下面的图来看下Vue2和Vue3生命周期钩子的对比：
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2021/20210628224421.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210628224421.png)
 
 - Vue3新增了setup
 - Vue2中的beforeDestroy名称变更为beforeUnmount
@@ -425,7 +425,7 @@ export default {
 </script>
 ```
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2021/vue3-suspense-demo.gif)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/vue3-suspense-demo.gif)
 
 
 ## Fragment
@@ -480,4 +480,4 @@ https://v3.cn.vuejs.org/
 > 2. 关注公众号：**前端极客技术**，我们一起学习一起进步。
 
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/%E5%89%8D%E7%AB%AF%E6%9E%81%E5%AE%A2%E6%8A%80%E6%9C%AF%E4%BA%8C%E7%BB%B4%E7%A0%81.png)
+![](https://image.chenhanpeng.com/static/blog-images/%E5%89%8D%E7%AB%AF%E6%9E%81%E5%AE%A2%E6%8A%80%E6%9C%AF%E4%BA%8C%E7%BB%B4%E7%A0%81.png)

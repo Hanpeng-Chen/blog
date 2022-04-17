@@ -13,7 +13,7 @@ date: 2021-02-22 23:30:45
 ## 数据类型
 在开始讲深浅拷贝之前，我们要先知道JavaScript的数据类型，主要有下图所示的8种：
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2021/20210222225118.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210222225118.png)
 
 Object是引用类型，其他7种为基础类型。
 
@@ -198,7 +198,7 @@ let obj2 = JSON.parse(str);
 console.log('obj2',obj2);
 ```
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2021/20210222231521.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210222231521.png)
 
 从上面的执行结果来看，JSON.stringify方法来实现深拷贝并不完美，下面我们一起来看看JSON.stringify实现深拷贝存在的问题：
 
@@ -324,4 +324,4 @@ console.log('cloneObj', cloneObj)
 > 2、关注公众号：**前端极客技术(FrontGeek)**，我们一起学习一起进步。
 
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/%E5%89%8D%E7%AB%AF%E6%9E%81%E5%AE%A2%E6%8A%80%E6%9C%AF%E4%BA%8C%E7%BB%B4%E7%A0%81.png)
+![](https://image.chenhanpeng.com/static/blog-images/%E5%89%8D%E7%AB%AF%E6%9E%81%E5%AE%A2%E6%8A%80%E6%9C%AF%E4%BA%8C%E7%BB%B4%E7%A0%81.png)

@@ -64,11 +64,11 @@ DNS的域名查找：客户端和浏览器，本地DNS之间的查询方式是�
 
 递归查找过程如下图所示：
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2021/20210311233929.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210311233929.png)
 
 如果在本地DNS服务器中也没有查询到，则根据本地DNS服务器设置的转发器进行查询。若未用转发模式，则迭代查找过程如下图：
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2021/20210311234116.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210311234116.png)
 
 ### 优化
 - 减少DNS请求次数：页面中尽可能少用过多域名。HTTP有并发性，但它的并发性是受到源的限制的，同一个源一次最多并发4-7个。
@@ -87,7 +87,7 @@ DNS解析获取到服务器的IP+端口后，接下来就是要建立TCP链接�
 - 第二次握手：服务器收到客户端的SYN报文段，需要对这个SYN报文段进行确认，设置Acknowledgment Number为 x+1；同时，自己还要发送SYN请求信息，将SYN位置为1，Sequence Number为y；服务器端将上述所有信息放到一个报文段（即SYN+ACK报文段）中，一并发送给客户端，此时服务器进入SYN_RECV状态；
 - 第三次握手：客户端收到服务器的SYN+ACK报文段。然后将Acknowledgment Number设置为y+1，向服务器发送ACK报文段，这个报文段发送完毕以后，客户端和服务器端都进入ESTAB_LISHED状态，完成TCP三次握手。
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2021/20210317232206.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210317232206.png)
 
 - seq序号：用来标识从TCP源端向目的端发送的字节流，发起方发送数据时对此进行标记
 - ack确认序号：只有ACK标志位为1，确认序号字段才有效，ack=seq+1
@@ -116,14 +116,14 @@ TCP 连接建立之后，浏览器端会构建请求行、 请求头等信息，
 - 第四次挥手：主机1收到主机2发送的FIN报文段，向主机2发送ACK报文段，然后主机1进入TIME_WAIT状态；主机2收到主机1的ACK报文段后，就关闭连接；此时，主机1等待主机2 MSL后依然没有收到回复，则证明主机2已正常关闭，那好，主机1也可以关闭连接了。
 
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2021/20210317233152.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210317233152.png)
 
 ## 浏览器渲染
 浏览器拿到资源会根据资源类型进行处理，比如是 gzip 压缩后的文件则进行解压缩，如果响应头 Content-type 是 text/html，则开始解析HTML。
 
 按照渲染的时间顺序，流水线可以分为下面几个子阶段：构建DOM树、样式计算、布局阶段、分层、栅格化和显示。
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2021/spring/20210312110156.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/spring/20210312110156.png)
 
 1、渲染进程将HTML内容转换为浏览器能够读懂的DOM树结构。
 

@@ -18,4 +18,4 @@ sidebar: custom
 
 Email: hanpengchen07@163.com
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/%E5%89%8D%E7%AB%AF%E6%9E%81%E5%AE%A2%E6%8A%80%E6%9C%AF%E4%BA%8C%E7%BB%B4%E7%A0%81.png)
+![](https://image.chenhanpeng.com/static/blog-images/%E5%89%8D%E7%AB%AF%E6%9E%81%E5%AE%A2%E6%8A%80%E6%9C%AF%E4%BA%8C%E7%BB%B4%E7%A0%81.png)

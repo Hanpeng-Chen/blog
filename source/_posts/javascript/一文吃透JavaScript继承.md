@@ -19,7 +19,7 @@ date: 2021-02-28 23:53:15
 
 > 每一个构造函数都有一个prototype属性，指向函数的原型对象；每一个原型对象都有一个constructor属性，指向构造函数；每一个实例都有一个 __proto__ 属性，指向构造函数的原型对象。
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2021/20210228225313.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210228225313.png)
 
 我们先来看下面一段代码：
 ```js

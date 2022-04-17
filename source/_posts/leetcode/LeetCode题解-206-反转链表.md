@@ -16,7 +16,7 @@ date: 2020-12-17 23:50:48
 
 链表的结构如下图所示：
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2020/20201217235816.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2020/20201217235816.png)
 
 由于不是必须按顺序存储，链表在插入的时候可以达到`O(1)`的复杂度，但是在查找一个节点或者访问特定编号的节点则需要`O(n)`的时间。
 
@@ -46,7 +46,7 @@ date: 2020-12-17 23:50:48
 - pre和cur都分别向前一步
 
 ### 图解
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2020/20201218073444.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2020/20201218073444.png)
 
 ### 代码
 ```javascript
@@ -89,7 +89,7 @@ var reverseList = function(head) {
 由此，我们就可以用递归的方式来实现。递归的关键在于出口，在反转链表中，出口就是当链表被分成只剩下最后一个节点的时候，我们只需要直接返回当前节点作为 head。
 
 ### 图解
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2020/20201218074412.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2020/20201218074412.png)
 
 ### 代码
 ```javascript

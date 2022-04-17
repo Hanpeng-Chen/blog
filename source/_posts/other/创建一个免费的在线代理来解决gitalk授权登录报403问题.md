@@ -70,8 +70,8 @@ var gitalk = new Gitalk({
 
 重新部署后，点击Github登录，这次没有没有报403的问题，但是出现了下面“Error：Network Error”。
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2021/summer/20210421101906.png)
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2021/summer/20210421102116.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/summer/20210421101906.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/summer/20210421102116.png)
 
 查看了对应请求的应答码 `429`，表示请求太多，我个人估计是白嫖这个在线代理的人太多导致的。
 
@@ -88,7 +88,7 @@ var gitalk = new Gitalk({
 
 选择Workers，创建一个免费的Worker。
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2021/summer/20210421095610.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/summer/20210421095610.png)
 
 免费版本每天10万次请求也足以应对个人使用或者是小范围分享了。
 
@@ -132,4 +132,4 @@ proxy: https://cloudflare-cors-anywhere.hanpengchen.workers.dev/?https://github.
 > 2、关注公众号：**前端极客技术**，我们一起学习一起进步。
 
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/%E5%89%8D%E7%AB%AF%E6%9E%81%E5%AE%A2%E6%8A%80%E6%9C%AF%E4%BA%8C%E7%BB%B4%E7%A0%81.png)
+![](https://image.chenhanpeng.com/static/blog-images/%E5%89%8D%E7%AB%AF%E6%9E%81%E5%AE%A2%E6%8A%80%E6%9C%AF%E4%BA%8C%E7%BB%B4%E7%A0%81.png)

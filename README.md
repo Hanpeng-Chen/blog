@@ -12,7 +12,7 @@
 - [掘金主页](https://juejin.cn/user/1063982988795911)
 - [知乎](https://www.zhihu.com/people/hanpengchen)
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2020/autumn/article-gzh-qrcode.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2020/autumn/article-gzh-qrcode.png)
 
 
 ## 前端专题
@@ -142,4 +142,4 @@
 如果有疑问或者发现错误，可以提issue进行提问或勘误。
 
 欢迎关注公众号 **前端极客技术** 一起学习成长！ 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2020/winter/20201209120654.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2020/winter/20201209120654.png)

@@ -18,7 +18,7 @@ date: 2021-01-18 23:04:05
 
 栈遵循后进先出（LIFO）原则进行存储数据，先进入的数据被压入栈底，最后进入的数据在栈顶，需要读取数据的时候从栈顶开始弹出数据。如下图所示：
 
-![](https://gitee.com/HanpengChen/blog-images/raw/master/blogImages/2021/20210116204449.png)
+![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210116204449.png)
 
 因为栈的后进先出的特定，因此只能访问在栈顶的元素。
 
