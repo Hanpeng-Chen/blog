@@ -77,7 +77,7 @@ console.log(new a() instanceof a) // true
 
 我们简单分析下[]、Array、Object三者的关系：
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210117211231.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2021/20210117211231.png)
 
 [].__proto__ 指向 Array.prototype，而 Array.prototype.__proto__ 又指向 Object.prototype，最终 Object.prototype.__proto__ 指向null，标志着原型链的结束。因此，[]、Array、Object 就在内部形成了一条原型链。
 

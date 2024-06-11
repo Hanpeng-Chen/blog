@@ -71,7 +71,7 @@ BFC(Block Formatting Context)：快格式化上下文，是web页面的可视化
 </body>
 ```
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2020/winter/20201209084006.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2020/winter/20201209084006.png)
 
 从代码和实际渲染效果看出：两个div处于同一个BFC容器下（body元素）,第一个div元素的下边距和第二个div元素的上边距发生了重叠，两个盒子之间的距离只有50px，这就是外边距折叠，也就叫外边距塌陷。
 
@@ -100,7 +100,7 @@ BFC(Block Formatting Context)：快格式化上下文，是web页面的可视化
   </div>
 </body>
 ```
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2020/winter/20201209084457.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2020/winter/20201209084457.png)
 
 ### BFC可以包含浮动的元素（清除浮动）
 我们先来看下面的代码及其执行结果：
@@ -124,7 +124,7 @@ BFC(Block Formatting Context)：快格式化上下文，是web页面的可视化
 </div>
 ```
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2020/winter/20201209085305.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2020/winter/20201209085305.png)
 
 容器内的子元素都设置为浮动，容器的高度只剩下2px的边框高度，出现这个结果是由于浮动元素会脱离文档流，所以导致不占据页面空间，所以会对父元素高度带来一定影响。如果一个元素中包含的元素全部是浮动元素，那么该元素高度将变成0，也就是我们常说的高度塌陷。
 
@@ -148,7 +148,7 @@ BFC(Block Formatting Context)：快格式化上下文，是web页面的可视化
 </div>
 ```
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2020/winter/20201209085831.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2020/winter/20201209085831.png)
 
 ### BFC可以阻止元素被浮动元素覆盖
 
@@ -164,11 +164,11 @@ BFC可以阻止元素被浮动元素覆盖，在了解这个特性之前，先�
 </div>
 ```
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2020/winter/20201209091046.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2020/winter/20201209091046.png)
 
 这时候其实第二个元素有部分被浮动元素所覆盖，(但是文本信息不会被浮动元素所覆盖) 如果想避免元素被覆盖，可触第二个元素的 BFC 特性，在第二个元素中加入 overflow: hidden，就会变成：
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2020/winter/20201209091140.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2020/winter/20201209091140.png)
 
 利用BFC可以阻止元素被浮动元素覆盖的特性，我们解决CSS的两列自适应布局问题。
 
@@ -201,10 +201,10 @@ BFC可以阻止元素被浮动元素覆盖，在了解这个特性之前，先�
   <div class="column3">column 3</div>
 </div>
 ```
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2020/winter/20201209114510.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2020/winter/20201209114510.png)
 
 从上图看出，我们最后一列出现换行情况，我们在对最后一列触发BFC特性，加入`overflow: hidden`，页面重新渲染结果如下：
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2020/winter/20201209114736.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2020/winter/20201209114736.png)
 
 #### 参考资料：
 

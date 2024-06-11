@@ -25,7 +25,7 @@ date: 2021-05-20 15:01:05
 
 gzip压缩一种非常方便，且效果明显的解决方法，使用gzip压缩可以减小60%以上的体积。
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/summer/20210520152024.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2021/summer/20210520152024.png)
 
 从上图我们可以看到gzip压缩后的文件体积基本减小了60%左右，效果喜人。
 
@@ -38,11 +38,11 @@ html、js、css文件，甚至Json数据都可以用其来进行压缩。
 
 但是不是每个浏览器都支持gzip的，如果知道客户端是否支持gzip呢，请求头中有个Accept-Encoding来标识对压缩的支持。客户端http请求头声明浏览器支持的压缩方式，服务端配置启用压缩，压缩的文件类型，压缩方式。当客户端请求到服务端的时候，服务器解析请求头，如果客户端支持gzip压缩，响应时对请求的资源进行压缩并返回给客户端，浏览器按照自己的方式解析，在http响应头，我们可以看到content-encoding:gzip，这是指服务端使用了gzip的压缩方式。
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/summer/20210520152903.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2021/summer/20210520152903.png)
 
 那么怎么看有没有用gzip压缩的文件呢，打开f12，查看network，按照下面的方式过滤，如果content-encoding是gzip，说明返回的是gzip。
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/summer/20210520153445.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2021/summer/20210520153445.png)
 
 nginx的gzip分为两种：
 - nginx动态压缩，对每个请求先压缩再输出
@@ -110,7 +110,7 @@ http {
 ### 如何判断gzip_static是否生效
 在请求的response headers里面的Etag里面，没有`W/`就表明使用的是我们自己的 .gz 文件。
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/summer/20210521113526.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2021/summer/20210521113526.png)
 
 ### Vue项目打包.gz文件
 

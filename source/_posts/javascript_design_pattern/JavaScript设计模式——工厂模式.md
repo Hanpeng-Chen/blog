@@ -47,7 +47,7 @@ Javascript设计模式中，主要用到的设计模式基本都是围绕单一�
 ## 设计模式分类
 设计模式有23种，可以按照创建型、行为型、结构型划分成三类，具体见下图：
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/spring/20210112163348.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2021/spring/20210112163348.png)
 
 针对这23中设计模式，我们将选一些比较重要、实际开发中能用到、面试中常见的来详细学习。
 
@@ -267,7 +267,7 @@ console.log(javascriptCoder1.getCareerName(), javascriptCoder1.language);
 let nodejsCoder = new CoderOfJavaScript('node全栈开发')
 console.log(nodejsCoder.getCareerName(), nodejsCoder.language)
 ```
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/spring/20210113125948.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2021/spring/20210113125948.png)
 从结果来看CareerAbstractFactory这个抽象工厂很好地实现了它的作用，将不同岗位按照开发语言这一类簇进行了分类。
 
 抽象工厂的作用：它不直接创建实例，而是通过类的继承进行类簇的管理。

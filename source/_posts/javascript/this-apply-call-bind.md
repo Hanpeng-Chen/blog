@@ -37,7 +37,7 @@ getName();
 console.log('out function', this)
 ```
 在浏览器控制台执行结果如下图所示：
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210420214029.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2021/20210420214029.png)
 
 我们可以看到在全局环境中直接调用函数getName()相当于`window.getName()`，调用它的是全局对象window，所以this对象指向全局对象，也就是window对象。
 

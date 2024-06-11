@@ -26,7 +26,7 @@ date: 2021-01-17 12:17:31
 
 链表的结构可以由很多种，它可以是单链表或双链表，也可以是已排序的或未排序的，环形的或非环形的。如果一个链表是单向的，那么链表中的每个元素没有指向前一个元素的指针。已排序的和未排序的链表较好理解。常见的有：单向链表、双向链表、单向循环链表和双向循环链表。
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210114213201.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2021/20210114213201.png)
 
 从上图我们可以看出，循环链表和单链表的区别在于：单链表的尾元素指向的Null，而循环链表的尾元素指向的是链表的头部元素。
 
@@ -95,7 +95,7 @@ class LinkedList {
 
 找到节点后，我们先创建一个新节点，把新节点的next指针指向找到的这个节点next指向的对应节点，再把找到的这个节点的next指针指向新节点，数据的插入就完成了。具体过程如下图所示：
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210114215737.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2021/20210114215737.png)
 
 代码实现如下：
 ```js
@@ -114,7 +114,7 @@ class LinkedList {
 ### 删除节点
 删除节点和插入节点类似，首先要找到相应节点的前一个节点，找到后，让它的next指向待删除节点的下一个节点。如下图所示：
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210114220545.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2021/20210114220545.png)
 
 代码实现如下：
 ```js
@@ -197,7 +197,7 @@ class LinkedList {
 
 双向链表如下图所示：
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210114223754.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2021/20210114223754.png)
 
 和单向链表相比，在存储相同的数据情况下，双向链表要比单向链表占用更多的空间，但双向链表往往会比单向链表更加灵活。例如：
 
@@ -223,7 +223,7 @@ class Node {
 ### 插入
 双向链表的插入和单向链表相似，多了一个prev指针，只要将新节点的prev指向前驱节点，将后驱节点的prev指向新节点。如下图所示：
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210114224936.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2021/20210114224936.png)
 
 实现代码如下：
 ```js
@@ -240,7 +240,7 @@ insert(el, item){
 ### 删除
 双向链表的删除 remove 方法比单链表效率高，不需要查找前驱节点，只要找出待删除节点，然后将该节点的前驱 next 属性指向待删除节点的后继，设置该节点后继 previous 属性，指向待删除节点的前驱即可。
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210114225122.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2021/20210114225122.png)
 
 实现代码如下：
 ```js
@@ -307,7 +307,7 @@ class LinkedList {
 head.next = head
 ```
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210114230407.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2021/20210114230407.png)
 
 单向循环链表如上图所示，具体的实现细节不再一一细说，我们直接来看实现代码：
 ```js
@@ -365,7 +365,7 @@ class LinkedList {
 ## 双向循环链表
 既然单链表可以有循环链表，双向链表也可以是循环链表。双向循环链表头结点的prev指针指向尾结点，尾结点的next指针指向头结点。如下图所示：
 
-![](https://image.chenhanpeng.com/static/blog-images/blogImages/2021/20210114231724.png)
+![](https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev/blog-images/blogImages/2021/20210114231724.png)
 
 实现代码如下：
 ```js
