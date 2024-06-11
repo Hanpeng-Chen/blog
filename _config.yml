@@ -84,9 +84,9 @@ duoshuo:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo:
-    github: 
-  branch: master
+  repo: https://github.com/Hanpeng-Chen/blog-deploy.git
+  # repo: root@182.61.17.161:/usr/local/blogRepo/hexo
+  branch: main
 
 # 七牛云图床 
 qiniu:
@@ -97,7 +97,7 @@ qiniu:
     access_key: 
     secret_key: 
     dirPrefix: static
-    urlPrefix: http://image.chenhanpeng.com/static
+    urlPrefix: https://pub-9effe6ef78a64cfc92922e0f4e06f7dd.r2.dev
     up_host: http://upload-z2.qiniup.com
     local_dir: static
     update_exist: true
